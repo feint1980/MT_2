@@ -1,0 +1,2853 @@
+<F_AObj name="boss_eiki">
+	<animations>
+		<animation name="cast">
+			<anims>
+				<anim name="boss_eiki/eiki_05.png" time="6.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="boss_eiki/eiki_09.png" time="6.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="boss_eiki/eiki_01.png" time="6.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="boss_eiki/eiki_02.png" time="6.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="boss_eiki/eiki_03.png" time="6.00" offset_x="2.00" offset_y="0.00"/>
+				<anim name="boss_eiki/eiki_04.png" time="6.00" offset_x="2.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="boss_eiki/eiki_05.png" time="6.00" offset_x="0.00" offset_y="0.00" inverted="1"/>
+				<anim name="boss_eiki/eiki_06.png" time="6.00" offset_x="0.00" offset_y="0.00" inverted="1"/>
+				<anim name="boss_eiki/eiki_07.png" time="6.00" offset_x="0.00" offset_y="0.00" inverted="1"/>
+				<anim name="boss_eiki/eiki_08.png" time="6.00" offset_x="0.00" offset_y="0.00" loop="1" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="boss_eiki/eiki_05.png" time="6.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="boss_eiki/eiki_06.png" time="6.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="boss_eiki/eiki_07.png" time="6.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="boss_eiki/eiki_08.png" time="6.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="komachi">
+	<animations>
+		<animation name="cast">
+			<anims>
+				<anim name="komachi/komachi_09.png" time="12.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="komachi/komachi_10.png" time="7.00" offset_x="10.00" offset_y="-8.00" loop="1"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="komachi/komachi_01.png" time="5.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="komachi/komachi_02.png" time="5.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="komachi/komachi_03.png" time="5.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="komachi/komachi_04.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="komachi/komachi_05.png" time="0.00" offset_x="0.00" offset_y="0.00" inverted="1"/>
+				<anim name="komachi/komachi_06.png" time="5.00" offset_x="0.00" offset_y="0.00" inverted="1"/>
+				<anim name="komachi/komachi_07.png" time="5.00" offset_x="0.00" offset_y="0.00" inverted="1"/>
+				<anim name="komachi/komachi_08.png" time="5.00" offset_x="0.00" offset_y="0.00" loop="1" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="komachi/komachi_05.png" time="5.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="komachi/komachi_06.png" time="5.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="komachi/komachi_07.png" time="5.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="komachi/komachi_08.png" time="5.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="evil_sealing_circle">
+	<animations>
+		<animation name="end">
+			<anims>
+				<anim name="evil_sealing_circle/evil_sealing_circle_23.png" time="2.00" offset_x="0.00" offset_y="2.00" loop="1"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_24.png" time="2.00" offset_x="0.00" offset_y="2.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_25.png" time="2.00" offset_x="0.00" offset_y="2.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_26.png" time="2.00" offset_x="0.00" offset_y="2.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_27.png" time="2.00" offset_x="0.00" offset_y="2.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_28.png" time="2.00" offset_x="0.00" offset_y="2.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_27.png" time="2.00" offset_x="0.00" offset_y="2.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_26.png" time="2.00" offset_x="0.00" offset_y="2.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_25.png" time="2.00" offset_x="0.00" offset_y="2.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_24.png" time="2.00" offset_x="0.00" offset_y="2.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_23.png" time="2.00" offset_x="0.00" offset_y="2.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_22.png" time="2.00" offset_x="0.00" offset_y="2.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_21.png" time="2.00" offset_x="0.00" offset_y="2.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_20.png" time="2.00" offset_x="0.00" offset_y="2.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_19.png" time="1.00" offset_x="0.00" offset_y="2.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_18.png" time="1.00" offset_x="0.00" offset_y="2.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_17.png" time="2.00" offset_x="0.00" offset_y="2.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_16.png" time="2.00" offset_x="0.00" offset_y="2.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_15.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_14.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_13.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_12.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_11.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_10.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_09.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_08.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_07.png" time="1.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_06.png" time="1.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_05.png" time="1.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_04.png" time="1.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_03.png" time="1.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_02.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="evil_sealing_circle/evil_sealing_circle_02.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_03.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_04.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_05.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_06.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_07.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_08.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_09.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_10.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_11.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_12.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_13.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_14.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_15.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_16.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_17.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_18.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_19.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_20.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_21.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_22.png" time="2.00" offset_x="0.00" offset_y="1.00" loop="1"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_23.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_24.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_25.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_26.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_27.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_28.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_27.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_26.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_25.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_24.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_23.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+			</anims>
+		</animation>
+		<animation name="idle2">
+			<anims>
+				<anim name="evil_sealing_circle/evil_sealing_circle_02.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_03.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_04.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_05.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_06.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_07.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_08.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_09.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_10.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_11.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_12.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_13.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_14.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_15.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_16.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_17.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_18.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_19.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_20.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_21.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_22.png" time="2.00" offset_x="0.00" offset_y="1.00" loop="1"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_23.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_24.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_25.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_26.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_27.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_28.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_27.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_26.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_25.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_24.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_circle_23.png" time="2.00" offset_x="0.00" offset_y="1.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="evil_sealing_circle_support">
+	<animations>
+		<animation name="end">
+			<anims>
+				<anim name="evil_sealing_circle/evil_sealing_support_19.png" time="1.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_18.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_17.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_16.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_15.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_14.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_13.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_12.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_11.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_10.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_09.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_08.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_07.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_06.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_05.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_04.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_03.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_02.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_01.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="evil_sealing_circle/evil_sealing_support_01.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_02.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_03.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_04.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_05.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_06.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_07.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_08.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_09.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_10.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_11.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_12.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_13.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_14.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_15.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_16.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_17.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_18.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="evil_sealing_circle/evil_sealing_support_19.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_3.png" time="4.00" loop="1"/>
+				<anim name="projectile/death_anim_3.png" time="4.00"/>
+				<anim name="projectile/death_anim_3.png" time="17.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="fairy/idle_1.png" time="6.00" loop="1"/>
+				<anim name="fairy/idle_2.png" time="6.00"/>
+				<anim name="fairy/idle_3.png" time="6.00"/>
+				<anim name="fairy/idle_4.png" time="6.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_enemy_elite_1">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_elite_typeA_05.png" time="6.00" loop="1"/>
+				<anim name="enemies/fairy_elite_typeA_06.png" time="6.00"/>
+				<anim name="enemies/fairy_elite_typeA_07.png" time="6.00"/>
+				<anim name="enemies/fairy_elite_typeA_08.png" time="6.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_elite_typeA_10.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_elite_typeA_01.png" time="5.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_elite_typeA_02.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_elite_typeA_03.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_elite_typeA_04.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_elite_typeA_11.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_elite_typeA_12.png" time="5.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_elite_typeA_10.png" time="5.00"/>
+				<anim name="enemies/fairy_elite_typeA_01.png" time="5.00" loop="1"/>
+				<anim name="enemies/fairy_elite_typeA_02.png" time="5.00"/>
+				<anim name="enemies/fairy_elite_typeA_03.png" time="5.00"/>
+				<anim name="enemies/fairy_elite_typeA_04.png" time="5.00"/>
+				<anim name="enemies/fairy_elite_typeA_11.png" time="5.00"/>
+				<anim name="enemies/fairy_elite_typeA_12.png" time="5.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_elite_black">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeB_black_normal_05.png" time="6.00" loop="1"/>
+				<anim name="enemies/fairy_typeB_black_normal_06.png" time="6.00"/>
+				<anim name="enemies/fairy_typeB_black_normal_07.png" time="6.00"/>
+				<anim name="enemies/fairy_typeB_black_normal_08.png" time="6.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeB_black_normal_10.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_black_normal_01.png" time="5.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeB_black_normal_02.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_black_normal_03.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_black_normal_04.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_black_normal_11.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_black_normal_12.png" time="5.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeB_black_normal_10.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_black_normal_01.png" time="5.00" loop="1"/>
+				<anim name="enemies/fairy_typeB_black_normal_02.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_black_normal_03.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_black_normal_04.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_black_normal_11.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_black_normal_12.png" time="5.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_elite_brown_outlined">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeB_brown_outlined_05.png" time="6.00" loop="1"/>
+				<anim name="enemies/fairy_typeB_brown_outlined_06.png" time="6.00"/>
+				<anim name="enemies/fairy_typeB_brown_outlined_07.png" time="6.00"/>
+				<anim name="enemies/fairy_typeB_brown_outlined_08.png" time="6.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeB_brown_outlined_10.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_brown_outlined_01.png" time="5.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeB_brown_outlined_02.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_brown_outlined_03.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_brown_outlined_04.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_brown_outlined_11.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_brown_outlined_12.png" time="5.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeB_brown_outlined_10.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_brown_outlined_01.png" time="5.00" loop="1"/>
+				<anim name="enemies/fairy_typeB_brown_outlined_02.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_brown_outlined_03.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_brown_outlined_04.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_brown_outlined_11.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_brown_outlined_12.png" time="5.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_enemy_elite_cyan">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeB_cyan_normal_01.png" time="6.00" loop="1"/>
+				<anim name="enemies/fairy_typeB_cyan_normal_02.png" time="6.00"/>
+				<anim name="enemies/fairy_typeB_cyan_normal_03.png" time="6.00"/>
+				<anim name="enemies/fairy_typeB_cyan_normal_04.png" time="6.00"/>
+				<anim name="enemies/fairy_typeB_cyan_normal_05.png" time="6.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeB_cyan_normal_06.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_cyan_normal_07.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_cyan_normal_08.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_cyan_normal_09.png" time="5.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeB_cyan_normal_10.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_cyan_normal_11.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_cyan_normal_12.png" time="5.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeB_cyan_normal_06.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_cyan_normal_07.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_cyan_normal_08.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_cyan_normal_09.png" time="5.00" loop="1"/>
+				<anim name="enemies/fairy_typeB_cyan_normal_10.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_cyan_normal_11.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_cyan_normal_12.png" time="5.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_enemy_elite_cyan_outlined">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeB_cyan_outlined_01.png" time="6.00" loop="1"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_02.png" time="6.00"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_03.png" time="6.00"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_04.png" time="6.00"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_05.png" time="6.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeB_cyan_outlined_06.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_07.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_08.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_09.png" time="5.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_10.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_11.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_12.png" time="5.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeB_cyan_outlined_06.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_07.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_08.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_09.png" time="5.00" loop="1"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_10.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_11.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_12.png" time="5.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_enemy_elite_cyan_outlined_blue">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeB_cyan_outlined_blue_01.png" time="6.00" loop="1"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_blue_02.png" time="6.00"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_blue_03.png" time="6.00"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_blue_04.png" time="6.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeB_cyan_outlined_blue_07.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_blue_08.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_blue_09.png" time="5.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_blue_10.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_blue_11.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_blue_12.png" time="5.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeB_cyan_outlined_blue_06.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_blue_07.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_blue_08.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_blue_09.png" time="5.00" loop="1"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_blue_10.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_blue_11.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_cyan_outlined_blue_12.png" time="5.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_enemy_elite_green_outlined">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeB_green_outlined_05.png" time="6.00" loop="1"/>
+				<anim name="enemies/fairy_typeB_green_outlined_06.png" time="6.00"/>
+				<anim name="enemies/fairy_typeB_green_outlined_07.png" time="6.00"/>
+				<anim name="enemies/fairy_typeB_green_outlined_08.png" time="6.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeB_green_outlined_10.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_green_outlined_01.png" time="5.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeB_green_outlined_02.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_green_outlined_03.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_green_outlined_04.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_green_outlined_11.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_green_outlined_12.png" time="5.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeB_green_outlined_10.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_green_outlined_01.png" time="5.00" loop="1"/>
+				<anim name="enemies/fairy_typeB_green_outlined_02.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_green_outlined_03.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_green_outlined_04.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_green_outlined_11.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_green_outlined_12.png" time="5.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_enemy_elite_green_outlined_blue">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeB_green_outlined_blue_05.png" time="6.00" loop="1"/>
+				<anim name="enemies/fairy_typeB_green_outlined_blue_06.png" time="6.00"/>
+				<anim name="enemies/fairy_typeB_green_outlined_blue_07.png" time="6.00"/>
+				<anim name="enemies/fairy_typeB_green_outlined_blue_08.png" time="6.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeB_green_outlined_blue_10.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_green_outlined_blue_01.png" time="5.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeB_green_outlined_blue_02.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_green_outlined_blue_03.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_green_outlined_blue_04.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_green_outlined_blue_11.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_green_outlined_blue_12.png" time="5.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeB_green_outlined_blue_10.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_green_outlined_blue_01.png" time="5.00" loop="1"/>
+				<anim name="enemies/fairy_typeB_green_outlined_blue_02.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_green_outlined_blue_03.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_green_outlined_blue_04.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_green_outlined_blue_11.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_green_outlined_blue_12.png" time="5.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_enemy_elite_orange">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeB_orange_normal_05.png" time="6.00" loop="1"/>
+				<anim name="enemies/fairy_typeB_orange_normal_06.png" time="6.00"/>
+				<anim name="enemies/fairy_typeB_orange_normal_07.png" time="6.00"/>
+				<anim name="enemies/fairy_typeB_orange_normal_08.png" time="6.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeB_orange_normal_10.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_orange_normal_01.png" time="5.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeB_orange_normal_02.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_orange_normal_03.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_orange_normal_04.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_orange_normal_11.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_orange_normal_12.png" time="5.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeB_orange_normal_10.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_orange_normal_01.png" time="5.00" loop="1"/>
+				<anim name="enemies/fairy_typeB_orange_normal_02.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_orange_normal_03.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_orange_normal_04.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_orange_normal_11.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_orange_normal_12.png" time="5.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_enemy_elite_orange_outlined">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeB_orange_outlined_05.png" time="6.00" loop="1"/>
+				<anim name="enemies/fairy_typeB_orange_outlined_06.png" time="6.00"/>
+				<anim name="enemies/fairy_typeB_orange_outlined_07.png" time="6.00"/>
+				<anim name="enemies/fairy_typeB_orange_outlined_08.png" time="6.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeB_orange_outlined_10.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_orange_outlined_01.png" time="5.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeB_orange_outlined_02.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_orange_outlined_03.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_orange_outlined_04.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_orange_outlined_11.png" time="5.00" inverted="1"/>
+				<anim name="enemies/fairy_typeB_orange_outlined_12.png" time="5.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeB_orange_outlined_10.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_orange_outlined_01.png" time="5.00" loop="1"/>
+				<anim name="enemies/fairy_typeB_orange_outlined_02.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_orange_outlined_03.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_orange_outlined_04.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_orange_outlined_11.png" time="5.00"/>
+				<anim name="enemies/fairy_typeB_orange_outlined_12.png" time="5.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_enemy_normal_black">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeA_black_normal_01.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_black_normal_02.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_black_normal_03.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_black_normal_04.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_black_normal_05.png" time="7.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeA_black_normal_06.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_black_normal_07.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_black_normal_08.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_black_normal_09.png" time="7.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeA_black_normal_10.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_black_normal_11.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_black_normal_12.png" time="7.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeA_black_normal_06.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_black_normal_07.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_black_normal_08.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_black_normal_09.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_black_normal_10.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_black_normal_11.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_black_normal_12.png" time="7.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_enemy_normal_black_pink">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeA_black_pink_normal_01.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_black_pink_normal_02.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_black_pink_normal_03.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_black_pink_normal_04.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_black_pink_normal_05.png" time="7.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeA_black_pink_normal_06.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_black_pink_normal_07.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_black_pink_normal_08.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_black_pink_normal_09.png" time="7.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeA_black_pink_normal_10.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_black_pink_normal_11.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_black_pink_normal_12.png" time="7.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeA_black_pink_normal_06.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_black_pink_normal_07.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_black_pink_normal_08.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_black_pink_normal_09.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_black_pink_normal_10.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_black_pink_normal_11.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_black_pink_normal_12.png" time="7.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_enemy_normal_black_red">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeA_black_red_normal_01.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_black_red_normal_02.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_black_red_normal_03.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_black_red_normal_04.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_black_red_normal_05.png" time="7.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeA_black_red_normal_06.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_black_red_normal_07.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_black_red_normal_08.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_black_red_normal_09.png" time="7.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeA_black_red_normal_10.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_black_red_normal_11.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_black_red_normal_12.png" time="7.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeA_black_red_normal_06.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_black_red_normal_07.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_black_red_normal_08.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_black_red_normal_09.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_black_red_normal_10.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_black_red_normal_11.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_black_red_normal_12.png" time="7.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_enemy_normal_blue _outlined">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeA_blue_outlined_01.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_02.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_03.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_04.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_05.png" time="7.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeA_blue_outlined_06.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_blue_outlined_07.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_blue_outlined_08.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_blue_outlined_09.png" time="7.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_10.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_11.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_12.png" time="7.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeA_blue_outlined_06.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_07.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_08.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_09.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_10.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_11.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_12.png" time="7.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_enemy_normal_blue _outlined_2">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_01.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_02.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_03.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_04.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_05.png" time="7.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_06.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_07.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_08.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_09.png" time="7.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_10.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_11.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_12.png" time="7.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_06.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_07.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_08.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_09.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_10.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_11.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_12.png" time="7.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_enemy_normal_blue">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeA_blue_normal_01.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_blue_normal_02.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_normal_03.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_normal_04.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_normal_05.png" time="7.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeA_blue_normal_06.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_blue_normal_07.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_blue_normal_08.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_blue_normal_09.png" time="7.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeA_blue_normal_10.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_blue_normal_11.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_blue_normal_12.png" time="7.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeA_blue_normal_06.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_normal_07.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_normal_08.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_normal_09.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_blue_normal_10.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_normal_11.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_normal_12.png" time="7.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_enemy_normal_blue_outlined">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeA_blue_outlined_01.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_02.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_03.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_04.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_05.png" time="7.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeA_blue_outlined_06.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_blue_outlined_07.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_blue_outlined_08.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_blue_outlined_09.png" time="7.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_10.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_11.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_12.png" time="7.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeA_blue_outlined_06.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_07.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_08.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_09.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_10.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_11.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_12.png" time="7.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_enemy_normal_blue_outlined_2">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_01.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_02.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_03.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_04.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_05.png" time="7.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_06.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_07.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_08.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_09.png" time="7.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_10.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_11.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_12.png" time="7.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_06.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_07.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_08.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_09.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_10.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_11.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_blue_outlined_blue_12.png" time="7.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_enemy_normal_green_outlined">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeA_green_outlined_01.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_green_outlined_02.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_green_outlined_03.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_green_outlined_04.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_green_outlined_05.png" time="7.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeA_green_outlined_06.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_green_outlined_07.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_green_outlined_08.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_green_outlined_09.png" time="7.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeA_green_outlined_10.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_green_outlined_11.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_green_outlined_12.png" time="7.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeA_green_outlined_06.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_green_outlined_07.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_green_outlined_08.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_green_outlined_09.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_green_outlined_10.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_green_outlined_11.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_green_outlined_12.png" time="7.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_enemy_normal_orange_outlined">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeA_orange_outlined_01.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_orange_outlined_02.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_orange_outlined_03.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_orange_outlined_04.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_orange_outlined_05.png" time="7.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeA_orange_outlined_06.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_orange_outlined_07.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_orange_outlined_08.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_orange_outlined_09.png" time="7.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeA_orange_outlined_10.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_orange_outlined_11.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_orange_outlined_12.png" time="7.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeA_orange_outlined_06.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_orange_outlined_07.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_orange_outlined_08.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_orange_outlined_09.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_orange_outlined_10.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_orange_outlined_11.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_orange_outlined_12.png" time="7.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_enemy_normal_orange_outlined_pink">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeA_orange_outlined_pink_01.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_orange_outlined_pink_02.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_orange_outlined_pink_03.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_orange_outlined_pink_04.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_orange_outlined_pink_05.png" time="7.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeA_orange_outlined_pink_06.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_orange_outlined_pink_07.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_orange_outlined_pink_08.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_orange_outlined_pink_09.png" time="7.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeA_orange_outlined_pink_10.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_orange_outlined_pink_11.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_orange_outlined_pink_12.png" time="7.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeA_orange_outlined_pink_06.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_orange_outlined_pink_07.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_orange_outlined_pink_08.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_orange_outlined_pink_09.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_orange_outlined_pink_10.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_orange_outlined_pink_11.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_orange_outlined_pink_12.png" time="7.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_enemy_normal_pink">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeA_pink_normal_01.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_pink_normal_02.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_pink_normal_03.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_pink_normal_04.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_pink_normal_05.png" time="7.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeA_pink_normal_06.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_pink_normal_07.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_pink_normal_08.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_pink_normal_09.png" time="7.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeA_pink_normal_10.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_pink_normal_11.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_pink_normal_12.png" time="7.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeA_pink_normal_06.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_pink_normal_07.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_pink_normal_08.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_pink_normal_09.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_pink_normal_10.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_pink_normal_11.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_pink_normal_12.png" time="7.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_enemy_normal_pink_outlined">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeA_pink_outlined_01.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_pink_outlined_02.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_pink_outlined_03.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_pink_outlined_04.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_pink_outlined_05.png" time="7.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeA_pink_outlined_06.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_pink_outlined_07.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_pink_outlined_08.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_pink_outlined_09.png" time="7.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeA_pink_outlined_10.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_pink_outlined_11.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_pink_outlined_12.png" time="7.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeA_pink_outlined_06.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_pink_outlined_07.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_pink_outlined_08.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_pink_outlined_09.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_pink_outlined_10.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_pink_outlined_11.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_pink_outlined_12.png" time="7.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_enemy_normal_purple">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeA_purple_normal_01.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_purple_normal_02.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_purple_normal_03.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_purple_normal_04.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_purple_normal_05.png" time="7.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeA_purple_normal_06.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_purple_normal_07.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_purple_normal_08.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_purple_normal_09.png" time="7.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeA_purple_normal_10.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_purple_normal_11.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_purple_normal_12.png" time="7.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeA_purple_normal_06.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_purple_normal_07.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_purple_normal_08.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_purple_normal_09.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_purple_normal_10.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_purple_normal_11.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_purple_normal_12.png" time="7.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_enemy_normal_purple_outlined">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeA_purple_outlined_01.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_purple_outlined_02.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_purple_outlined_03.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_purple_outlined_04.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_purple_outlined_05.png" time="7.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeA_purple_outlined_06.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_purple_outlined_07.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_purple_outlined_08.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_purple_outlined_09.png" time="7.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeA_purple_outlined_10.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_purple_outlined_11.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_purple_outlined_12.png" time="7.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeA_purple_outlined_06.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_purple_outlined_07.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_purple_outlined_08.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_purple_outlined_09.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_purple_outlined_10.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_purple_outlined_11.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_purple_outlined_12.png" time="7.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_enemy_normal_red_outlined">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeA_red_outlined_01.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_red_outlined_02.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_red_outlined_03.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_red_outlined_04.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_red_outlined_05.png" time="7.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeA_red_outlined_06.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_red_outlined_07.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_red_outlined_08.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_red_outlined_09.png" time="7.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeA_red_outlined_10.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_red_outlined_11.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_red_outlined_12.png" time="7.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeA_red_outlined_06.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_red_outlined_07.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_red_outlined_08.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_red_outlined_09.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_red_outlined_10.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_red_outlined_11.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_red_outlined_12.png" time="7.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_enemy_normal_white_outlined">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeA_white_outlined_01.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_white_outlined_02.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_white_outlined_03.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_white_outlined_04.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_white_outlined_05.png" time="7.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeA_white_outlined_06.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_white_outlined_07.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_white_outlined_08.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_white_outlined_09.png" time="7.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeA_white_outlined_10.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_white_outlined_11.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_white_outlined_12.png" time="7.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeA_white_outlined_06.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_white_outlined_07.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_white_outlined_08.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_white_outlined_09.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_white_outlined_10.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_white_outlined_11.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_white_outlined_12.png" time="7.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_enemy_normal_white_outlined">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeA_white_outlined_red_01.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_white_outlined_red_02.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_white_outlined_red_03.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_white_outlined_red_04.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_white_outlined_red_05.png" time="7.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeA_white_outlined_red_06.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_white_outlined_red_07.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_white_outlined_red_08.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_white_outlined_red_09.png" time="7.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeA_white_outlined_red_10.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_white_outlined_red_11.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_white_outlined_red_12.png" time="7.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeA_white_outlined_red_06.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_white_outlined_red_07.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_white_outlined_red_08.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_white_outlined_red_09.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_white_outlined_red_10.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_white_outlined_red_11.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_white_outlined_red_12.png" time="7.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_elite_yellow">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeA_yellow_01.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_yellow_02.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_yellow_03.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_yellow_04.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_yellow_05.png" time="7.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeA_yellow_06.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_yellow_07.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_yellow_08.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_yellow_09.png" time="7.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeA_yellow_10.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_yellow_11.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_yellow_12.png" time="7.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeA_yellow_06.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_yellow_07.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_yellow_08.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_yellow_09.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_yellow_10.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_yellow_11.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_yellow_12.png" time="7.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_elite_yellow_outlined">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeA_yellow_outlined_01.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_yellow_outlined_02.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_yellow_outlined_03.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_yellow_outlined_04.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_yellow_outlined_05.png" time="7.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeA_yellow_outlined_06.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_yellow_outlined_07.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_yellow_outlined_08.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_yellow_outlined_09.png" time="7.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeA_yellow_outlined_10.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_yellow_outlined_11.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_yellow_outlined_12.png" time="7.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeA_yellow_outlined_06.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_yellow_outlined_07.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_yellow_outlined_08.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_yellow_outlined_09.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_yellow_outlined_10.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_yellow_outlined_11.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_yellow_outlined_12.png" time="7.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="fairy_elite_yellow_outlined_orange">
+	<animations>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/fairy_typeA_yellow_outlined_orange_01.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_yellow_outlined_orange_02.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_yellow_outlined_orange_03.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_yellow_outlined_orange_04.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_yellow_outlined_orange_05.png" time="7.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="enemies/fairy_typeA_yellow_outlined_orange_06.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_yellow_outlined_orange_07.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_yellow_outlined_orange_08.png" time="7.00" inverted="1" />
+				<anim name="enemies/fairy_typeA_yellow_outlined_orange_09.png" time="7.00" loop="1" inverted="1"/>
+				<anim name="enemies/fairy_typeA_yellow_outlined_orange_10.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_yellow_outlined_orange_11.png" time="7.00" inverted="1"/>
+				<anim name="enemies/fairy_typeA_yellow_outlined_orange_12.png" time="7.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="enemies/fairy_typeA_yellow_outlined_orange_06.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_yellow_outlined_orange_07.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_yellow_outlined_orange_08.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_yellow_outlined_orange_09.png" time="7.00" loop="1"/>
+				<anim name="enemies/fairy_typeA_yellow_outlined_orange_10.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_yellow_outlined_orange_11.png" time="7.00"/>
+				<anim name="enemies/fairy_typeA_yellow_outlined_orange_12.png" time="7.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name = "homingParticle" >
+	<animations>
+		<animation name = "idle">
+			<anims>
+				<anim name = "projectile/particle_red_1.png" time = "4"/>
+				<anim name = "projectile/particle_red_2.png" time = "4"/>
+				<anim name = "projectile/particle_red_3.png" time = "4"/>
+				<anim name = "projectile/particle_red_4.png" time = "4"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+<F_AObj name="lightning_effect">
+	<animations>
+		<animation name="breath_fire">
+			<anims>
+				<anim name="lightning_effect/breath_fire_marked_01.png" time="2.00" offset_x="-14.5†á" offset_y="-3.00†á" loop="1"/>
+				<anim name="lightning_effect/breath_fire_marked_02.png" time="2.00" offset_x="0.50" offset_y="0.00"/>
+				<anim name="lightning_effect/breath_fire_marked_03.png" time="2.00" offset_x="8.00" offset_y="7.00"/>
+				<anim name="lightning_effect/breath_fire_marked_04.png" time="2.00" offset_x="10.50†á" offset_y="12.00†á"/>
+				<anim name="lightning_effect/breath_fire_marked_05.png" time="2.00" offset_x="11.50†á" offset_y="15.00†á"/>
+				<anim name="lightning_effect/breath_fire_marked_06.png" time="2.00" offset_x="11.50†á" offset_y="15.00†á"/>
+				<anim name="lightning_effect/breath_fire_marked_07.png" time="2.00" offset_x="12.00" offset_y="15.00"/>
+				<anim name="lightning_effect/breath_fire_marked_08.png" time="2.00" offset_x="11.50†á" offset_y="15.00"/>
+				<anim name="lightning_effect/breath_fire_marked_09.png" time="2.00" offset_x="11.00†á" offset_y="16.00"/>
+				<anim name="lightning_effect/breath_fire_marked_10.png" time="2.00" offset_x="13.00" offset_y="16.00†á"/>
+				<anim name="lightning_effect/breath_fire_marked_11.png" time="2.00" offset_x="13.00†á" offset_y="18.00†á"/>
+				<anim name="lightning_effect/breath_fire_marked_12.png" time="2.00" offset_x="12.00†á" offset_y="17.00"/>
+				<anim name="lightning_effect/breath_fire_marked_13.png" time="2.00" offset_x="12.00†á" offset_y="17.00†á"/>
+				<anim name="lightning_effect/breath_fire_marked_14.png" time="2.00" offset_x="12.00†á" offset_y="17.00†á"/>
+				<anim name="lightning_effect/breath_fire_marked_15.png" time="2.00" offset_x="12.00†á" offset_y="17.00"/>
+				<anim name="lightning_effect/breath_fire_marked_16.png" time="2.00" offset_x="10.00†á" offset_y="15.00†á"/>
+				<anim name="lightning_effect/breath_fire_marked_17.png" time="2.00" offset_x="10.00†á" offset_y="15.00†á"/>
+				<anim name="lightning_effect/breath_fire_marked_18.png" time="2.00" offset_x="10.00†á" offset_y="15.00"/>
+				<anim name="lightning_effect/breath_fire_marked_19.png" time="2.00" offset_x="10.00†á" offset_y="15.00†á"/>
+				<anim name="lightning_effect/breath_fire_marked_20.png" time="2.00" offset_x="10.00†á" offset_y="15.00†á"/>
+				<anim name="lightning_effect/breath_fire_marked_21.png" time="2.00" offset_x="10.00†á" offset_y="15.00†á"/>
+				<anim name="lightning_effect/breath_fire_marked_22.png" time="2.00" offset_x="10.00" offset_y="15.00†á"/>
+				<anim name="lightning_effect/breath_fire_marked_23.png" time="2.00" offset_x="10.00†á" offset_y="15.00†á"/>
+			</anims>
+		</animation>
+		<animation name="effect_1">
+			<anims>
+				<anim name="lightning_effect/lightning_ball_2_marked_01.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="lightning_effect/lightning_ball_2_marked_02.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_2_marked_03.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_2_marked_04.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_2_marked_05.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_2_marked_06.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_2_marked_07.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_2_marked_08.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_2_marked_09.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_2_marked_10.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_2_marked_11.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_2_marked_12.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_2_marked_13.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_2_marked_14.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_2_marked_15.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_2_marked_17.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_2_marked_18.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_2_marked_19.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_2_marked_21.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_2_marked_22.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_2_marked_23.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_2_marked_24.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_2_marked_16.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_2_marked_20.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="effect_2">
+			<anims>
+				<anim name="lightning_effect/lightning_ball_masked_01.png" time="2.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="lightning_effect/lightning_ball_masked_02.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_masked_03.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_masked_04.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_masked_05.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_masked_06.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_masked_07.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_masked_08.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_masked_09.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_masked_10.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_masked_11.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_ball_masked_12.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="effect_3">
+			<anims>
+				<anim name="lightning_effect/lightning_line_marked_01.png" time="2.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="lightning_effect/lightning_line_marked_02.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_line_marked_03.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_line_marked_04.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_line_marked_05.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_line_marked_06.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_line_marked_07.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_line_marked_08.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_line_marked_09.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_line_marked_10.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_line_marked_11.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_line_marked_12.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="effect_4">
+			<anims>
+				<anim name="lightning_effect/lightning_spark_marked_01.png" time="3.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="lightning_effect/lightning_spark_marked_02.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_03.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_04.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_05.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_06.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_07.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_08.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_09.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_10.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_11.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_12.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_13.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_14.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_15.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_16.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_17.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_18.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_19.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_20.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_21.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_22.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_23.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_24.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_25.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_26.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_27.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_28.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_29.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/lightning_spark_marked_30.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="fire_link">
+			<anims>
+				<anim name="lightning_effect/link_effect_fire_marked_01.png" time="2.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="lightning_effect/link_effect_fire_marked_02.png" time="2.00" offset_x="-3.00" offset_y="0.00"/>
+				<anim name="lightning_effect/link_effect_fire_marked_03.png" time="2.00" offset_x="-1.00" offset_y="-0.50†á"/>
+				<anim name="lightning_effect/link_effect_fire_marked_04.png" time="2.00" offset_x="-2.00†á" offset_y="0.00"/>
+				<anim name="lightning_effect/link_effect_fire_marked_05.png" time="2.00" offset_x="-2.00†á" offset_y="-1.00†á"/>
+				<anim name="lightning_effect/link_effect_fire_marked_06.png" time="2.00" offset_x="-2.00" offset_y="0.00"/>
+				<anim name="lightning_effect/link_effect_fire_marked_07.png" time="2.00" offset_x="-2.00†á" offset_y="-1.00†á"/>
+				<anim name="lightning_effect/link_effect_fire_marked_08.png" time="2.00" offset_x="-3.00†á" offset_y="-1.00†á"/>
+				<anim name="lightning_effect/link_effect_fire_marked_09.png" time="2.00" offset_x="-3.00†á" offset_y="-1.00†á"/>
+				<anim name="lightning_effect/link_effect_fire_marked_10.png" time="2.00" offset_x="-3.00†á" offset_y="-2.00†á"/>
+				<anim name="lightning_effect/link_effect_fire_marked_11.png" time="2.00" offset_x="-2.50" offset_y="-3.00"/>
+				<anim name="lightning_effect/link_effect_fire_marked_12.png" time="2.00" offset_x="-2.00" offset_y="-1.00"/>
+				<anim name="lightning_effect/link_effect_fire_marked_13.png" time="2.00" offset_x="-1.00" offset_y="-1.00"/>
+				<anim name="lightning_effect/link_effect_fire_marked_14.png" time="2.00" offset_x="-4.00†á" offset_y="0.00"/>
+				<anim name="lightning_effect/link_effect_fire_marked_15.png" time="2.00" offset_x="-6.00†á" offset_y="0.00"/>
+				<anim name="lightning_effect/link_effect_fire_marked_16.png" time="2.00" offset_x="-6.00" offset_y="0.00"/>
+				<anim name="lightning_effect/link_effect_fire_marked_17.png" time="2.00" offset_x="-9.00" offset_y="0.00"/>
+				<anim name="lightning_effect/link_effect_fire_marked_18.png" time="2.00" offset_x="-9.00†á" offset_y="0.00"/>
+				<anim name="lightning_effect/link_effect_fire_marked_19.png" time="2.00" offset_x="-13.9†á" offset_y="0.00"/>
+				<anim name="lightning_effect/link_effect_fire_marked_20.png" time="2.00" offset_x="-16.0†á" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="fire_spark">
+			<anims>
+				<anim name="lightning_effect/fire_spark_marked_01.png" time="3.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="lightning_effect/fire_spark_marked_02.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/fire_spark_marked_03.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/fire_spark_marked_04.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/fire_spark_marked_05.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="lightning_effect/fire_spark_marked_06.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="frost_link">
+			<anims>
+				<anim name="lightning_effect/link_effect_frost_marked_01.png" time="2.00" offset_x="-3.00" offset_y="-15.0†á" loop="1"/>
+				<anim name="lightning_effect/link_effect_frost_marked_02.png" time="2.00" offset_x="-3.00" offset_y="0.00"/>
+				<anim name="lightning_effect/link_effect_frost_marked_03.png" time="2.00" offset_x="-3.00†á" offset_y="-2.00†á"/>
+				<anim name="lightning_effect/link_effect_frost_marked_04.png" time="2.00" offset_x="-3.00†á" offset_y="-3.00†á"/>
+				<anim name="lightning_effect/link_effect_frost_marked_05.png" time="2.00" offset_x="-3.00†á" offset_y="-6.00†á"/>
+				<anim name="lightning_effect/link_effect_frost_marked_06.png" time="2.00" offset_x="-2.00" offset_y="-7.00"/>
+				<anim name="lightning_effect/link_effect_frost_marked_07.png" time="2.00" offset_x="-2.00" offset_y="-6.00"/>
+				<anim name="lightning_effect/link_effect_frost_marked_08.png" time="2.00" offset_x="-2.00†á" offset_y="-9.00†á"/>
+				<anim name="lightning_effect/link_effect_frost_marked_09.png" time="2.00" offset_x="-3.00" offset_y="-12.0"/>
+				<anim name="lightning_effect/link_effect_frost_marked_10.png" time="2.00" offset_x="-4.00†á" offset_y="-14.0"/>
+				<anim name="lightning_effect/link_effect_frost_marked_11.png" time="2.00" offset_x="-3.50†á" offset_y="-9.00†á"/>
+				<anim name="lightning_effect/link_effect_frost_marked_12.png" time="2.00" offset_x="-5.00†á" offset_y="-10.0"/>
+				<anim name="lightning_effect/link_effect_frost_marked_13.png" time="2.00" offset_x="-5.00†á" offset_y="-10.0†á"/>
+				<anim name="lightning_effect/link_effect_frost_marked_14.png" time="2.00" offset_x="-4.00†á" offset_y="-11.0†á"/>
+				<anim name="lightning_effect/link_effect_frost_marked_15.png" time="2.00" offset_x="-4.00†á" offset_y="-12.0†á"/>
+				<anim name="lightning_effect/link_effect_frost_marked_16.png" time="2.00" offset_x="-4.00†á" offset_y="-14.0†á"/>
+				<anim name="lightning_effect/link_effect_frost_marked_17.png" time="2.00" offset_x="-12.0†á" offset_y="-8.00†á"/>
+				<anim name="lightning_effect/link_effect_frost_marked_18.png" time="2.00" offset_x="-10.0†á" offset_y="-14.0†á"/>
+				<anim name="lightning_effect/link_effect_frost_marked_19.png" time="2.00" offset_x="-18.9†á" offset_y="-14.0†á"/>
+				<anim name="lightning_effect/link_effect_frost_marked_20.png" time="2.00" offset_x="-21.0†á" offset_y="-14.0"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="marisa">
+	<animations>
+		<animation name="idle">
+			<anims>
+				<anim name="character/marisa_idle_1.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="character/marisa_idle_2.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="character/marisa_idle_3.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="character/marisa_idle_4.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="character/marisa_idle_5.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="character/marisa_idle_6.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="character/marisa_idle_7.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="character/marisa_idle_8.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="character/marisa_left_1.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="character/marisa_left_2.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="character/marisa_left_3.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="character/marisa_left_4.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="character/marisa_left_5.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="character/marisa_left_6.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="character/marisa_left_7.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="character/marisa_left_8.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="character/marisa_right_1.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="character/marisa_right_2.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="character/marisa_right_3.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="character/marisa_right_4.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="character/marisa_right_5.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="character/marisa_right_6.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="character/marisa_right_7.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="character/marisa_right_8.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="marisa_effect">
+	<animations>
+		<animation name="common_1">
+			<anims>
+				<anim name="marisa_effects/bulletAa000.png" time="2.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="marisa_effects/bulletAa001.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa002.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa003.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa004.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa005.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa006.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa007.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa008.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa009.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa010.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa011.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa012.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa013.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa014.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa015.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa016.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa017.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa018.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa019.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa020.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa021.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa022.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa023.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa024.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa025.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa026.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa027.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa028.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletAa029.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="common_1_destroy">
+			<anims>
+				<anim name="marisa_effects/bulletJa000.png" time="2.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="marisa_effects/bulletJb000.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa017.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa023.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa029.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa035.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa041.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa047.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa053.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa059.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="non_direct_laser">
+			<anims>
+				<anim name="marisa_effects/bulletFb001.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="marisa_effects/bulletGa000.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletGa001.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/bulletGa002.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="marisa_laserstarer">
+	<animations/>
+</F_AObj>
+
+<F_AObj name="marisa_normal_projectile">
+	<animations>
+		<animation name="default">
+			<anims>
+				<anim name="marisa_projectile/Marisa_projectile__special_green_1.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+			</anims>
+		</animation>
+		<animation name="destroy">
+			<anims>
+				<anim name="marisa_projectile/Marisa_projectile__special_green_2.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="marisa_projectile/Marisa_projectile__special_green_3.png" time="4.00" offset_x="-3.00€$]]„ð" offset_y="5.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="Marisa_own">
+	<animations>
+		<animation name="idle">
+			<anims>
+				<anim name="marisa_own/marisa_01.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_own/marisa_02.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="marisa_own/marisa_03.png" time="4.00" offset_x="-1.00—s" offset_y="-1.00—s"/>
+				<anim name="marisa_own/marisa_04.png" time="4.00" offset_x="2.00" offset_y="-2.00—s"/>
+				<anim name="marisa_own/marisa_05.png" time="4.00" offset_x="-2.00—s" offset_y="0.00"/>
+				<anim name="marisa_own/marisa_06.png" time="4.00" offset_x="-3.00" offset_y="-2.00"/>
+				<anim name="marisa_own/marisa_07.png" time="4.00" offset_x="-3.00" offset_y="0.00"/>
+				<anim name="marisa_own/marisa_08.png" time="4.00" offset_x="1.00" offset_y="0.00"/>
+				<anim name="marisa_own/marisa_09.png" time="4.00" offset_x="0.00" offset_y="-1.00—s"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="marisa_own/marisa_10.png" time="4.00" offset_x="0.00" offset_y="0.00" />
+				<anim name="marisa_own/marisa_12.png" time="4.00" offset_x="0.00" offset_y="0.00" />
+				<anim name="marisa_own/marisa_11.png" time="4.00" offset_x="0.00" offset_y="0.00" />
+				<anim name="marisa_own/marisa_13.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_own/marisa_14.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="marisa_own/marisa_15.png" time="4.00" offset_x="0.00" offset_y="0.00" />
+				<anim name="marisa_own/marisa_16.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_own/marisa_17.png" time="4.00" offset_x="2.00" offset_y="0.00" />
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="marisa_own/marisa_10.png" time="4.00" offset_x="0.00" offset_y="0.00" inverted="1"/>
+				<anim name="marisa_own/marisa_12.png" time="4.00" offset_x="0.00" offset_y="0.00" inverted="1"/>
+				<anim name="marisa_own/marisa_11.png" time="4.00" offset_x="0.00" offset_y="0.00" inverted="1"/>
+				<anim name="marisa_own/marisa_13.png" time="4.00" offset_x="0.00" offset_y="0.00" inverted="1"/>
+				<anim name="marisa_own/marisa_14.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1" inverted="1"/>
+				<anim name="marisa_own/marisa_15.png" time="4.00" offset_x="0.00" offset_y="0.00" inverted="1"/>
+				<anim name="marisa_own/marisa_16.png" time="4.00" offset_x="0.00" offset_y="0.00" inverted="1"/>
+				<anim name="marisa_own/marisa_17.png" time="4.00" offset_x="-2.00" offset_y="0.00" inverted="1"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="marisa_rocket_big">
+	<animations>
+		<animation name="default">
+			<anims>
+				<anim name="marisa_projectile/marisa_big_rocket_1.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="marisa_projectile/marisa_big_rocket_2.png" time="4.00" offset_x="-0.50òm" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="destroy">
+			<anims>
+				<anim name="marisa_projectile/Marisa_projectile_red_impact_1.png" time="2.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="marisa_projectile/Marisa_projectile_red_impact_2.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_projectile/Marisa_projectile_red_impact_3.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_projectile/Marisa_projectile_red_impact_4.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_projectile/Marisa_projectile_red_impact_5.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_projectile/Marisa_projectile_red_impact_6.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_projectile/Marisa_projectile_red_impact_7.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="marisa_rocket_small">
+	<animations>
+		<animation name="default">
+			<anims>
+				<anim name="marisa_projectile/marisa_small_rocket_1.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="marisa_projectile/marisa_small_rocket_2.png" time="4.00" offset_x="-0.50Q¶" offset_y="0.50"/>
+			</anims>
+		</animation>
+		<animation name="destroy">
+			<anims>
+				<anim name="marisa_projectile/Marisa_projectile_green_impact_1.png" time="2.00" offset_x="-1.00" offset_y="0.00" loop="1"/>
+				<anim name="marisa_projectile/Marisa_projectile_green_impact_2.png" time="2.00" offset_x="-1.00=2PØk" offset_y="0.00"/>
+				<anim name="marisa_projectile/Marisa_projectile_green_impact_2.png" time="2.00" offset_x="-1.00=2PÒk" offset_y="0.00"/>
+				<anim name="marisa_projectile/Marisa_projectile_green_impact_3.png" time="2.00" offset_x="-1.00?2PÆk" offset_y="0.00"/>
+				<anim name="marisa_projectile/Marisa_projectile_green_impact_4.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_projectile/Marisa_projectile_green_impact_5.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_projectile/Marisa_projectile_green_impact_6.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_projectile/Marisa_projectile_green_impact_7.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="marisa_star">
+	<animations>
+		<animation name="destroy">
+			<anims>
+				<anim name="marisa_star/bulletAb000.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1" />
+				<anim name="marisa_star/bulletAb003.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+<!-- 				<anim name="marisa_star/bulletAb005.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_star/bulletAb004.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_star/bulletAb001.png" time="10.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_star/bulletAb002.png" time=".00" offset_x="0.00" offset_y="0.00"/> -->
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="marisa_star/start_1.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="marisa_star/start_2.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_star/start_3.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="marisa_sun_1">
+	<animations>
+		<animation name="destroy">
+			<anims>
+				<anim name="marisa_effects/bulletJa000.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="marisa_effects/bulletJb000.png" time="0.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa017.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa023.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa029.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa035.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa041.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa047.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa053.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa059.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="marisa_effects_2/bulletFa000.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="marisa_sun_1">
+	<animations>
+		<animation name="destroy">
+			<anims>
+				<anim name="marisa_effects/bulletJa000.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="marisa_effects/bulletJb000.png" time="0.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa017.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa023.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa029.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa035.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa041.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa047.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa053.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa059.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="marisa_effects_2/bulletFa001.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="marisa_sun_1">
+	<animations>
+		<animation name="destroy">
+			<anims>
+				<anim name="marisa_effects/bulletJa000.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="marisa_effects/bulletJb000.png" time="0.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa017.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa023.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa029.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa035.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa041.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa047.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa053.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa059.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="marisa_effects_2/bulletFa002.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="marisa_sun_1">
+	<animations>
+		<animation name="destroy">
+			<anims>
+				<anim name="marisa_effects/bulletJa000.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="marisa_effects/bulletJb000.png" time="0.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa017.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa023.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa029.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa035.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa041.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa047.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa053.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa059.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="marisa_effects_2/bulletFa003.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="marisa_sun_1">
+	<animations>
+		<animation name="destroy">
+			<anims>
+				<anim name="marisa_effects/bulletJa000.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="marisa_effects/bulletJb000.png" time="0.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa017.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa023.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa029.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa035.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa041.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa047.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa053.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa059.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="marisa_effects_2/bulletFa004.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="marisa_sun_1">
+	<animations>
+		<animation name="destroy">
+			<anims>
+				<anim name="marisa_effects/bulletJa000.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="marisa_effects/bulletJb000.png" time="0.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa017.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa023.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa029.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa035.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa041.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa047.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa053.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="marisa_effects/spellBulletAa059.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="marisa_effects_2/bulletFa005.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="reimu">
+	<animations>
+		<animation name="idle">
+			<anims>
+				<anim name="character/reimu_idle_1.png" time="4.00" loop="1"/>
+				<anim name="character/reimu_idle_2.png" time="4.00"/>
+				<anim name="character/reimu_idle_3.png" time="4.00"/>
+				<anim name="character/reimu_idle_4.png" time="4.00"/>
+				<anim name="character/reimu_idle_5.png" time="4.00"/>
+				<anim name="character/reimu_idle_6.png" time="4.00"/>
+				<anim name="character/reimu_idle_7.png" time="4.00"/>
+				<anim name="character/reimu_idle_8.png" time="4.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="character/reimu_left_1.png" time="4.00"/>
+				<anim name="character/reimu_left_2.png" time="4.00"/>
+				<anim name="character/reimu_left_3.png" time="4.00"/>
+				<anim name="character/reimu_left_4.png" time="4.00"/>
+				<anim name="character/reimu_left_5.png" time="4.00" loop="1"/>
+				<anim name="character/reimu_left_6.png" time="4.00"/>
+				<anim name="character/reimu_left_7.png" time="4.00"/>
+				<anim name="character/reimu_left_8.png" time="4.00"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="character/reimu_right_1.png" time="4.00"/>
+				<anim name="character/reimu_right_2.png" time="4.00"/>
+				<anim name="character/reimu_right_3.png" time="4.00"/>
+				<anim name="character/reimu_right_4.png" time="4.00"/>
+				<anim name="character/reimu_right_5.png" time="4.00" loop="1"/>
+				<anim name="character/reimu_right_6.png" time="4.00"/>
+				<anim name="character/reimu_right_7.png" time="4.00"/>
+				<anim name="character/reimu_right_8.png" time="4.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="reimu_double_projectile">
+	<animations>
+		<animation name="default">
+			<anims>
+				<anim name="reimu_projectile/reimu_2_side_impact_1.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+			</anims>
+		</animation>
+		<animation name="destroy">
+			<anims>
+				<anim name="reimu_projectile/reimu_2_side_impact_2.png" time="4.00" offset_x="-0.50D—" offset_y="0.00" loop="1"/>
+				<anim name="reimu_projectile/reimu_2_side_impact_3.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="reimu_projectile/reimu_2_side_impact_4.png" time="4.00" offset_x="0.50" offset_y="0.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="reimu_homing">
+	<animations>
+		<animation name="default">
+			<anims>
+				<anim name="reimu_projectile/reimu_homing_b.png" time="4.00" offset_x="1.00" offset_y="0.00" loop="1"/>
+			</anims>
+		</animation>
+		<animation name="destroy">
+			<anims>
+				<anim name="reimu_projectile/reimu_homing_b_impact_1.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="reimu_projectile/reimu_homing_b_impact_2.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="reimu_projectile/reimu_homing_b_impact_3.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="reimu_homing_big">
+	<animations>
+		<animation name="default">
+			<anims>
+				<anim name="character/reimu_focus_1.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+			</anims>
+		</animation>
+		<animation name="destroy">
+			<anims>
+				<anim name="character/reimu_focus_2.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="character/reimu_focus_3.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="character/reimu_focus_4.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="reimu_normal_projectile">
+	<animations>
+		<animation name="default">
+			<anims>
+				<anim name="reimu_projectile/reimu_default_1.png" time="4.00" offset_x="-16.0D—" offset_y="0.00" loop="1"/>
+			</anims>
+		</animation>
+		<animation name="destroy">
+			<anims>
+				<anim name="reimu_projectile/reimu_default_impact_1.png" time="4.00" offset_x="0.50" offset_y="0.00" loop="1"/>
+				<anim name="reimu_projectile/reimu_default_impact_2.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="reimu_projectile/reimu_default_impact_3.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="reimu_projectile/reimu_default_impact_4.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="Reimu_own">
+	<animations>
+		<animation name="idle">
+			<anims>
+				<anim name="Reimu_own/Reimu_01.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="Reimu_own/Reimu_02.png" time="4.00" offset_x="-2.00›u" offset_y="2.00"/>
+				<anim name="Reimu_own/Reimu_03.png" time="4.00" offset_x="-1.00" offset_y="0.00"/>
+				<anim name="Reimu_own/Reimu_04.png" time="4.00" offset_x="-1.00›u" offset_y="0.00"/>
+				<anim name="Reimu_own/Reimu_05.png" time="4.00" offset_x="-5.00" offset_y="2.00"/>
+				<anim name="Reimu_own/Reimu_06.png" time="4.00" offset_x="0.00" offset_y="3.00"/>
+			</anims>
+		</animation>
+		<animation name="left">
+			<anims>
+				<anim name="Reimu_own/Reimu_05.png" time="5.00" offset_x="0.00" offset_y="0.00" inverted="1"/>
+				<anim name="Reimu_own/Reimu_06.png" time="5.00" offset_x="0.00" offset_y="0.00" inverted="1"/>
+				<anim name="Reimu_own/Reimu_07.png" time="5.00" offset_x="0.00" offset_y="0.00" loop="1" inverted="1"/>
+				<anim name="Reimu_own/Reimu_08.png" time="5.00" offset_x="0.00" offset_y="0.00" inverted="1"/>
+				<anim name="Reimu_own/Reimu_09.png" time="5.00" offset_x="0.00" offset_y="0.00" inverted="1"/>
+				<anim name="Reimu_own/Reimu_10.png" time="5.00" offset_x="-4.00›u" offset_y="0.00" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="right">
+			<anims>
+				<anim name="Reimu_own/Reimu_05.png" time="5.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="Reimu_own/Reimu_06.png" time="5.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="Reimu_own/Reimu_07.png" time="5.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="Reimu_own/Reimu_08.png" time="5.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="Reimu_own/Reimu_09.png" time="5.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="Reimu_own/Reimu_10.png" time="5.00" offset_x="4.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="reimu_wave">
+	<animations>
+		<animation name="default">
+			<anims>
+				<anim name="reimu_projectile/wave_01.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="reimu_projectile/wave_02.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="reimu_projectile/wave_03.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="destroy">
+			<anims>
+				<anim name="reimu_projectile/wave_04.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="reimu_projectile/wave_05.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="reimu_projectile/wave_07.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="reimu_projectile/wave_08.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="reimu_projectile/wave_09.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="reimu_projectile/wave_10.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="reimu_projectile/wave_11.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="sealing_amulet">
+	<animations>
+		<animation name="end">
+			<anims>
+				<anim name="Amulet_effect/amulet_1_small_2.png" time="3.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="Amulet_effect/amulet_1_small_3.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="Amulet_effect/amulet_1_small_4.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="Amulet_effect/amulet_2_small.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="shield">
+	<animations>
+		<animation name="default">
+			<anims>
+				<anim name="shield/shield_03.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+			</anims>
+		</animation>
+		<animation name="turn_default">
+			<anims>
+				<anim name="shield/shield_01.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="shield/shield_02.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+			</anims>
+		</animation>
+		<animation name="turn_default_invert">
+			<anims>
+				<anim name="shield/shield_01.png" time="4.00" offset_x="0.00" offset_y="0.00" inverted="1"/>
+				<anim name="shield/shield_02.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1" inverted="1"/>
+			</anims>
+		</animation>
+		<animation name="turn_side">
+			<anims>
+				<anim name="shield/shield_01.png" time="4.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="shield/shield_03.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+			</anims>
+		</animation>
+		<animation name="turn_side_invert">
+			<anims>
+				<anim name="shield/shield_01.png" time="4.00" offset_x="0.00" offset_y="0.00" inverted="1"/>
+				<anim name="shield/shield_03.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name = "shiki" >
+	<animations>
+		<animation name = "start">
+			<anims>
+				<anim name ="shiki/f 001.jpg"    time = "70	"/>
+			    <anim name ="shiki/f 002.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 003.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 004.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 005.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 006.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 007.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 008.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 009.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 010.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 011.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 012.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 013.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 014.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 015.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 016.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 017.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 018.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 019.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 020.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 021.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 022.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 023.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 024.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 025.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 026.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 027.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 028.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 029.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 030.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 031.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 032.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 033.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 034.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 035.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 036.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 037.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 038.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 039.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 040.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 041.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 042.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 043.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 044.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 045.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 046.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 047.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 048.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 049.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 050.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 051.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 052.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 053.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 054.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 055.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 056.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 057.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 058.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 059.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 060.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 061.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 062.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 063.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 064.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 065.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 066.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 067.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 068.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 069.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 070.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 071.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 072.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 073.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 074.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 075.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 076.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 077.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 078.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 079.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 080.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 081.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 082.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 083.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 084.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 085.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 086.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 087.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 088.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 089.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 090.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 091.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 092.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 093.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 094.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 095.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 096.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 097.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 098.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 099.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 100.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 101.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 102.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 103.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 104.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 105.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 106.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 107.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 108.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 109.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 110.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 111.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 112.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 113.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 114.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 115.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 116.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 117.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 118.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 119.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 120.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 121.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 122.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 123.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 124.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 125.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 126.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 127.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 128.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 129.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 130.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 131.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 132.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 133.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 134.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 135.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 136.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 137.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 138.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 139.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 140.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 141.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 142.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 143.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 144.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 145.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 146.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 147.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 148.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 149.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 150.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 151.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 152.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 153.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 154.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 155.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 156.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 157.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 158.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 159.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 160.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 161.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 162.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 163.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 164.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 165.jpg"    time = "1.0"/> 
+			    <anim name ="shiki/f 166.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 167.jpg"    time = "1.0"/>
+			    <anim name ="shiki/f 168.jpg"    time = "1.0"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+<F_AObj name="souls_white">
+	<animations>
+		<animation name="idle">
+			<anims>
+				<anim name="enemies/spririt_01.png" time="5.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="enemies/spririt_03.png" time="5.00" offset_x="-1.01" offset_y="0.00"/>
+				<anim name="enemies/spririt_04.png" time="5.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="enemies/spririt_05.png" time="5.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="enemies/spririt_06.png" time="5.00" offset_x="-1.01" offset_y="0.00"/>
+				<anim name="enemies/spririt_07.png" time="5.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="enemies/spririt_08.png" time="5.00" offset_x="1.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="death">
+			<anims>
+				<anim name="projectile/death_anim_1.png" time="3.00" loop="1"/>
+				<anim name="projectile/death_anim_2.png" time="3.00"/>
+				<anim name="projectile/death_anim_3.png" time="24.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="spellcard_frame">
+	<animations>
+		<animation name="ready">
+			<anims>
+				<anim name="spellFrame/spellcardFrame_01.png" time="3.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="spellFrame/spellcardFrame_02.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="spellFrame/spellcardFrame_03.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="spellFrame/spellcardFrame_04.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="spellFrame/spellcardFrame_05.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="spellFrame/spellcardFrame_06.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="spellFrame/spellcardFrame_07.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="spellFrame/spellcardFrame_08.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="spellFrame/spellcardFrame_09.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="spellFrame/spellcardFrame_10.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="spellFrame/spellcardFrame_11.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="spellFrame/spellcardFrame_12.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="spellFrame/spellcardFrame_13.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="spellFrame/spellcardFrame_14.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="spellFrame/spellcardFrame_15.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="spellFrame/spellcardFrame_16.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="spellFrame/spellcardFrame_17.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="spellFrame/spellcardFrame_18.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="spellFrame/spellcardFrame_19.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="spellFrame/spellcardFrame_20.png" time="3.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="spellFrame/spellcardFrame_21.png" time="4.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="yin_yang_orb">
+	<animations>
+		<animation name="end">
+			<anims>
+				<anim name="yin_yang_orb_spell/spellBulletC023.png" time="2.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+<!-- 				<anim name="yin_yang_orb_spell/spellBulletC055.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC054.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC053.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC052.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC051.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC050.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC049.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC048.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC047.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC046.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC045.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC044.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC043.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC042.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC041.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC040.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC039.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC038.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC037.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC036.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC035.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC034.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC033.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC032.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC031.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC030.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC029.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC028.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC027.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC026.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC025.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC024.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC023.png" time="2.00" offset_x="0.00" offset_y="0.00"/> -->
+				<anim name="yin_yang_orb_spell/spellBulletC022.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC021.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC020.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC019.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC018.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC017.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC016.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC015.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC014.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC013.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC012.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC011.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC010.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC009.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC008.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC007.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC006.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC005.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC004.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC003.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC002.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC001.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC000.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="yin_yang_orb_spell/spellBulletC000.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC001.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC002.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC003.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC004.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC005.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC006.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC007.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC008.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC009.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC010.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC011.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC012.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC013.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC014.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC015.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC016.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC017.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC018.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC019.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC020.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC021.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC022.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC023.png" time="2.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="yin_yang_orb_spell/spellBulletC024.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC025.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC026.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC027.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC028.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC029.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC030.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC031.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC032.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC033.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC034.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC035.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC036.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC037.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC038.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC039.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC040.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC041.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC042.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC043.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC044.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC045.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC046.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC047.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC048.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC049.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC050.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC051.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC052.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC053.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC054.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_spell/spellBulletC055.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
+<F_AObj name="yin_yang_orb_ex">
+	<animations>
+		<animation name="end">
+			<anims>
+				<anim name="yin_yang_orb_ex/spellBulletE025.png" time="2.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="yin_yang_orb_ex/spellBulletE024.png" time="2.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="yin_yang_orb_ex/spellBulletE023.png" time="2.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+<!-- 				<anim name="yin_yang_orb_ex/spellBulletE055.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE054.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE053.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE052.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE051.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE050.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE049.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE048.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE047.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE046.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE045.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE044.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE043.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE042.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE041.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE040.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE039.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE038.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE037.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE036.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE035.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE034.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE033.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE032.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE031.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE030.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE029.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE028.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE027.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE026.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE025.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE024.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE023.png" time="2.00" offset_x="0.00" offset_y="0.00"/> -->
+				<anim name="yin_yang_orb_ex/spellBulletE022.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE021.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE020.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE019.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE018.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE017.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE016.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE015.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE014.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE013.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE012.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE011.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE010.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE009.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE008.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE007.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE006.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE005.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE004.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE003.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE002.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+		<animation name="idle">
+			<anims>
+				<anim name="yin_yang_orb_ex/spellBulletE002.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE003.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE004.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE005.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE006.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE007.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE008.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE009.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE010.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE011.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE012.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE013.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE014.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE015.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE016.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE017.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE018.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE019.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE020.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE021.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE022.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE023.png" time="2.00" offset_x="0.00" offset_y="0.00" loop="1"/>
+				<anim name="yin_yang_orb_ex/spellBulletE024.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE025.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE026.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE027.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE028.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE029.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE030.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE031.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE032.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE033.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE034.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE035.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE036.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE037.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE038.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE039.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE040.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE041.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE042.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE043.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE044.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE045.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE046.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE047.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE048.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE049.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE050.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE051.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE052.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE053.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE054.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE055.png" time="2.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE056.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+				<anim name="yin_yang_orb_ex/spellBulletE057.png" time="1.00" offset_x="0.00" offset_y="0.00"/>
+			</anims>
+		</animation>
+	</animations>
+</F_AObj>
+
