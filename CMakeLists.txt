@@ -6,6 +6,8 @@ project(${PROJECT_N} VERSION 1.0)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
+set(CMAKE_CXX_FLAGS "-fpermissive -std=c++17")
+
 file(GLOB_RECURSE SRCS ${PROJECT_SOURCE_DIR}/src/*.cpp)
 
 # a macro that gets all of the header containing directories. 
@@ -33,5 +35,6 @@ foreach(dir ${INCLUDES})
         message(STATUS ${dir})
 endforeach()
 add_executable(${PROJECT_N} ${SRCS})
+
 
 target_include_directories(${PROJECT_N} PUBLIC include)

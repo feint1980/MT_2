@@ -1,292 +1,350 @@
-// #include <iostream>
-
-// //#include "FileObject.h"
-
-// #include <glm/glm.hpp>
-// #include <glm/gtc/matrix_transform.hpp>
-
-// #define ago = 0
-
-// void displayMatrix(const glm::mat4 & matrix)
-// {
-//     std::cout << "matrix: \n";
-//     for (int i = 0; i < 4; i++)
-//     {
-//         std::cout << matrix[i][0] << "\t\t" << matrix[i][1] << "\t\t" << matrix[i][2] << "\t\t" << matrix[i][3] << "\n";
-//     }
-// }
-
-// int main(int argc, char const *argv[])
-// {
-    
-//     long long time ago;
-
-//     std::cout << "test \n";
-
-//     glm::vec3 translate(1.0f, 7.0f, 3.0f);
-
-//     glm::mat4 orthoMatrix  = glm::mat4(1.0f);
-
-//     std::cout << "before translate : \n";
-
-//     displayMatrix(orthoMatrix);
-
-//     std::cout << "after translate : \n";
-
-//     orthoMatrix = glm::translate(orthoMatrix, translate);
-
-//     displayMatrix(orthoMatrix);
-
-//     glm::vec3 scale(1.0f, 3.0f, 2.0f);
-
-//     std::cout << "after scale : \n";
-
-//     orthoMatrix = glm::scale(glm::mat4(1.0f), scale) * orthoMatrix;
-
-//     displayMatrix(orthoMatrix);
-
-//     glm::vec3 rotation(0.0f, 1.0f, 0.0f);
-
-//     std::cout << "after rotation : \n";
-
-//     orthoMatrix = glm::rotate(orthoMatrix, glm::radians(360.0f), rotation);
-
-//     displayMatrix(orthoMatrix);
-
-//     std::cout << "end \n";
-
-//     return 0;
-// }
-
+#include <mutex>
+#include <random>
 #include <iostream>
-
-#include <thread>
-#include <vector>
-#include <fstream>
 #include <string>
-#include <map>
-#include <unordered_map>
+#include <vector>
+#include <thread>
+#include <time.h>
+#include <fstream>
+#include <dirent.h>
+#include <future>
+#include <array>
+
+typedef std::vector<std::string> buffer;
+std::atomic_flag lock = ATOMIC_FLAG_INIT;
 
 
-struct Object
+template <typename T>
+struct atomwrapper
 {
+  std::atomic<T> _a;
 
-    std::string keyName = ""; // for show display only
-    std::string name = "";
-    unsigned int money = 0;
+  atomwrapper()
+    :_a()
+  {}
 
+  atomwrapper(const std::atomic<T> &a)
+    :_a(a.load())
+  {}
+
+  atomwrapper(const atomwrapper &other)
+    :_a(other._a.load())
+  {}
+
+  atomwrapper &operator=(const atomwrapper &other)
+  {
+    _a.store(other._a.load());
+  }
 };
 
-
-typedef std::vector<Object> objectList;
-
-#define MAX_SIZE 4000
-
-
-struct hashKey
+void lock_func()
 {
-    int mainKey;
-    int subKey;
+    while(lock.test_and_set(std::memory_order_acquire))
+    {
+        #if defined(__cpp_lib_atomic_flag_test)
+        while (lock.test(std::memory_order_relaxed)) 
+        #endif 
+        ;
+
+    }
+    
+}
+void release_func()
+{
+    lock.clear(std::memory_order_release);
+}
+
+struct tFile
+{
+    std::string name;
+    buffer data;
+    void load(const std::string & filePath)
+    {
+        name = filePath;
+        std::ifstream file(filePath);
+        if (file.is_open())
+        {
+            std::string line;
+            while (std::getline(file, line))
+            {
+                data.push_back(line);
+            }
+            file.close();
+        }
+    }
 };
 
-class hashTable
+class Singleton 
 {
-
 public:
 
-
-    hashKey getHashKey(const std::string& name, int flag = 0)
+    static Singleton* getSingletonInstance()
     {
-        // calculate hash key
-        int result = getHashIndex(name);
-        hashKey key;
-        key.mainKey = result;
-        if(flag == 1)
+       // std::lock_guard<std::mutex> lock(m_);
+        if(singletonInstance == nullptr)
         {
-            if(data[key.mainKey].size() == 0)
+            singletonInstance = new Singleton();
+        }
+        return singletonInstance;
+    }
+
+    void addFile(const std::string & filePath)
+    {
+        //std::lock_guard<std::mutex> lock(m_);
+       
+        tFile t_file;
+      // t_file.name = filePath;
+        t_file.load(filePath);
+       
+        //std::cout << "adding " << t_file.name << "\n";
+        m_.lock();
+       
+        m_files.push_back(t_file);
+        m_.unlock();
+    }
+
+    tFile getFileByName(const std::string & name)
+    {
+        for(auto & t_files : m_files)
+        {
+            //std::cout << "checking " << t_files.name << "\n";
+            if(t_files.name == name)
             {
-                key.mainKey = -1;
-            } 
-        }
-        key.subKey = 0;
-        if(data[key.mainKey].size() > 0) // this is O(1 + n) n is the time search in map
-        {
-            key.subKey = subkeyStorage[name];
-        }
-        return key;
-    }
-    int getHashIndex(const std::string& name)
-    {
-        int result = -1;
-        // simple hashing shit
-        for (auto c : name)
-        {
-            result += c;
-        }
-        result = result %  m_maxSize;
-        
-        return result;
-    }
-    void insert(const std::string& name, const Object & obj)
-    {
-        int mainKey = getHashIndex(name);
-        int subKey = data[mainKey].size();
-        if(subKey > 0)
-        {
-            subkeyStorage[name] = subKey; // only save when there is a collision
-        }
-        data[mainKey].push_back(obj);
-
-        std::cout << "inserted value " << name << " at " << mainKey << " : " << subKey << "\n"; 
-        std::cout << "Name : " << data[mainKey][subKey].name << " Money : " << data[mainKey][subKey].money << "\n";
-    }
-
-    void search(const std::string& name)
-    {
-        hashKey key = getHashKey(name,1);
-        if(key.mainKey == -1)
-        {
-            std::cout << name << " not found \n"; 
-            return;
-        }
-        std::cout << "Name : " << data[key.mainKey][key.subKey].name << " Money : " << data[key.mainKey][key.subKey].money << "\n";
-    }
-    void remove(const std::string& name)
-    {
-        hashKey key = getHashKey(name,1);
-        if(key.mainKey == -1)
-        {
-            std::cout << name << " not found, how can I remove a thing when it not exist \n"; // philisophy shit that generated by AI 
-            return;
-        }
-        data[key.mainKey].erase(data[key.mainKey].begin() + key.subKey);
-        subkeyStorage.erase(name);
-        
-    }
-
-    void init(int tableSize)
-    {
-        data.reserve(tableSize);
-        data.resize(tableSize);
-        m_maxSize = tableSize;
-    }
-
-    void displayTable()
-    {
-        std::cout << "******************** TABLE START ***********************************\n";
-        for(int i = 0; i < m_maxSize; i++)
-        {
-            if(data[i].size() > 0)
-            {
-                std::cout << "[" << i << "] ";
-                for (int j = 0; j < data[i].size(); j++) // hell yeah missionary for loop
-                {
-                    std::cout << "[" << j << "] (" << data[i][j].keyName << ") :";
-                    std::cout << data[i][j].name << " has " << data[i][j].money << " $ \t ";
-                }
-                std::cout << "\n";
+                return t_files;
             }
         }
-        std::cout << "******************** TABLE END ***********************************\n";
+
+        return tFile();
     }
 
-    std::string randomString(int length)
+    void displayData()
     {
-        std::string result;
-        for(int i = 0; i < length; i++)
+        std::lock_guard<std::mutex> lock(m_);
+        for(auto & t_files : m_files)
         {
-            // only genrate a-z and A-Z
-            result += (rand() % 2) ? 'A' + rand() % 26 : 'a' + rand() % 26;
+            std::cout << t_files.name << "\n";
         }
-        return result;
     }
 
-    void initRandomData(int sample)
-    {
+int loadFromDirectory(const char * name, int level)
+{
+    std::cout << "scan on " << name << "\n";
+    std::cout << "level start -----" << level << "\n";
+		DIR *dir;
+		struct dirent *entry;
 
-        for (int i = 0; i < sample; i++)
+		if (!(dir = opendir(name)))
+		{
+			std::cout << "dir failed \n";
+			return 0;
+		}
+
+		if (!(entry = readdir(dir)))
+		{
+			std::cout << "entry failed \n";
+			return 0;
+		}
+
+
+		do {
+			if (entry->d_type == DT_DIR) {
+				char path[1024];
+				int len = _snprintf_s(path, sizeof(path) - 1, "%s/%s", name, entry->d_name);
+				path[len] = 0;
+				if (strcmp(entry->d_name, ".") == 0 || strcmp(entry->d_name, "..") == 0)
+				{
+                    continue;
+                }
+                    
+				printf("%*s[%s]\n", level * 2, "", entry->d_name);
+                std::cout << "path -> " << path << "\n";
+
+				loadFromDirectory(path, level + 1);
+			}
+			else
+			{
+				std::string texturePath = name;
+				texturePath.append("/");
+               // std::cout << "texturePath 2 -> " << texturePath << "\n";
+				texturePath.append(entry->d_name);
+                //std::cout << "texturePath 3 -> " << texturePath << "\n";
+                std::cout << "||||: " << texturePath << "\n";
+                std::cout << "filecount " << fileCount << "\n";
+                //m_isDones[fileCount].store(false, std::memory_order_release);
+                std::thread t = std::thread([&](){
+                    addFile(texturePath);
+                    int currentValue = fileCount;
+                    std::cout << "|| !!! load done " << currentValue << "\n";
+                    m_isDones[currentValue]._a.store(true, std::memory_order_release);
+                });
+
+                fileCount.fetch_add(1);
+                m_threads.push_back(std::move(t));
+                
+			}
+
+
+		} while (entry = readdir(dir));
+
+		closedir(dir);
+
+
+        std::cout << "level end -----" << level << "\n";
+
+        if(level == 0) // end of stack
         {
-            Object obj;
-            obj.keyName = randomString(8);
-            obj.name = randomString(8);
-            obj.money = rand() % 100;
-            insert(obj.keyName, obj);
+            std::cout << "call \n";
+            while(resolved_files < fileCount -1)
+            {
+                for (int i = resolved_files ; i < resolved_files + limited_thread; ++i)
+                {
+                    if (i < m_threads.size())
+                    {
+                        std::cout <<"thread " << i << "\n";
+                        if(m_threads[i].joinable())
+                        {
+                            m_threads[i].join();
+                            //std::cout << "join thread " << i << "\n";
+                        }
+                    }
+                }
+               // int result = 0;
+                while (!isDoneBatch())
+                {
+                    std::cout << "wait \n";
+                }
+                std::cout << "move to next batch |||||||||||||||||||||||| \n";
+                resolved_files.fetch_add(limited_thread);
+                
+                if(resolved_files >= fileCount)
+                {
+                
+                    resolved_files.fetch_sub(-1);
+                
+                }
+                
+            }
+            std::cout << "total threads " << m_threads.size() << "\n";
         }
+        
+
+		return 0;
+}
+
+    bool isDoneBatch()
+    {
+        for (int i = resolved_files ; i < resolved_files + limited_thread; ++i)
+        {
+           // std::cout << " i " << i << " has value " << m_isDones[i] << "\n";
+            if(m_isDones[i]._a.load(std::memory_order_acquire) != true)
+            {
+                //std::cout << "task " << i << " not done \n";
+                return false;
+            }
+        }
+        return true;
+    }
+
+    bool isDone()
+    {
+        
+        for (int i = 0 ; i < fileCount; ++i)
+        {
+            if(!m_isDones[i]._a.load(std::memory_order_acquire))
+            {
+                return false;
+
+            }
+        }
+        return true;
     }
 
 private:
-    std::vector<objectList> data;
-    std::unordered_map<std::string, int> subkeyStorage;
-    int m_maxSize;
+    static Singleton *singletonInstance;
+    Singleton() {
+        std::cout << "constructor hit \n";
+        
+        for (int i = 0 ; i < 1000; ++i)
+        {
+            std::atomic<bool> a ;
+            a.store(false, std::memory_order_release);
+            m_isDones.push_back(a);
+        }
+
+    }
+    static std::mutex m_;
+    std::vector<tFile> m_files;
+
+    std::vector<std::thread> m_threads;
+    //std::vector<std::atomic<bool>> m_isDones;
+    std::vector<atomwrapper<bool>> m_isDones;
+
+    std::atomic<int>   fileCount{0};
+    std::atomic<int>  internalCount{0};
+    std::atomic<int>  limited_thread{8};
+    std::atomic<int>  resolved_files {0};
+    std::atomic<int>  total_result = {0};
 };
+Singleton *Singleton::singletonInstance = 0;
+std::mutex Singleton::m_;
+std::default_random_engine generator;
+
+
+std::string getRandomString(int length)
+{
+   
+    std::uniform_int_distribution<int> distribution(0,length);
+    std::string result;
+    for(int i = 0; i < length; ++i)
+    {
+        result += 'a' + distribution(generator) % 26;
+    }
+    return result;
+}
+
+float randomFloat(float min, float max)
+{
+    std::uniform_int_distribution<int> distribution(min,max);
+    return min + distribution(generator);
+}
+
 
 
 int main()
 {
+
     // init random seed
-    srand(time(NULL));
-    hashTable t;
-    t.init(1000);
-    t.initRandomData(200);
+    std::cout << "test \n";
 
 
-    t.displayTable();
+    Singleton::getSingletonInstance()->loadFromDirectory("./Data", 0);
 
 
-    int input;
-    do {
-       std::cout << "****** MENU ******* \n";
-        std::cout << "1. Insert \n";
-        std::cout << "2. Remove \n";
-        std::cout << "3. Display \n";
-        std::cout << "4. Search \n";
-        std::cout << "others . Exit \n";
-        std::cout << "select : ";
-        std::cin >> input;
-        switch(input)
-        {
-            case 1:
-            {
-                std::string keynName;
-                std::string name;
-                int money;
-                std::cout << "key name : ";
-                std::cin >> keynName;
-                std::cout << "name : ";
-                std::cin >> name;
-                std::cout << "money : ";
-                std::cin >> money;
-                Object obj;
-                obj.keyName = keynName;
-                obj.name = name;
-                obj.money = money;
-                t.insert(name, obj);
-                break;
-            }
-            case 2:
-            {
-                std::string name;
-                std::cout << "name : ";
-                std::cin >> name;
-                t.remove(name);
-                break;
-            }
-            case 3:
-            {
-                t.displayTable();
-                break;
-            }
-            case 4:
-            {
-                std::string name;
-                std::cout << "name : ";
-                std::cin >> name;
-                t.search(name);
-                break;
-            }
-        }
+    while(!Singleton::getSingletonInstance()->isDone())
+    {
+        std::cout << "loading \n";
+        // Sleep(10);
+    }
 
-    }while (input >= 0 && input <= 4);
+    std::cout << "loaded \n";
+
+    std::string tName ;
+    std::cin >> tName;
+
+    tFile t = Singleton::getSingletonInstance()->getFileByName(tName);
+
+    for (int i = 0 ; i < t.data.size(); ++i)
+    {
+        std::cout << t.data[i] << "\n";
+    }
+
+
+    // tFile t = Singleton::getSingletonInstance()->getSpriteByName(tName);
+    // for (auto & line : t.data)
+    // {
+    //     std::cout << line << "\n";
+    // }
 
     return 0;
 }
+
