@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.10)
 set(PROJECT_N Multithread_sample)
 project(${PROJECT_N} VERSION 1.0)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 set(CMAKE_CXX_FLAGS "-fpermissive -std=c++17")
@@ -24,6 +24,10 @@ ENDMACRO()
 
 # using said macro.
 header_directories(INCLUDES ${PROJECT_SOURCE_DIR}/include/ hpp)
+
+set(DEPS_include_dir ${PROJECT_SOURCE_DIR}/../include)
+
+include_directories(${DEPS_include_dir} ${INCLUDES})
 
 message("src files:")
 foreach(file ${SRCS})
