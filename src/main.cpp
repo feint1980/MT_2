@@ -22,11 +22,12 @@ int main()
         fomula += buff;
     }
 
-
     Node * node = new Node();
 
 
     node->parseData(fomula);    
+
+    std::cout << node->getValue();
 
     return 0;
 }
