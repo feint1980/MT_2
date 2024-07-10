@@ -1,56 +1,14 @@
-#pragma once
+#include "AST_Node.h"
 
 
-#include <iostream>
-
-#include <math.h>
-#include <string>
-#include <stack>
-#include <vector>
-
-
-#define A 3
-#define B 4
-#define C 2
-
-enum Operator{
-    NONE,
-    ADD,
-    SUB,
-    MUL,
-    DIV,
-    SQRT,
-    COS, 
-    SIN
-};
-
-
-struct clause
+namespace Feintgine
 {
-    clause(const std::string & _data, int index) : data(_data), originalIndex(index) {}
-    std::string data;
-    int originalIndex = -1;
-};
 
-
-struct operationSign
-{
-    operationSign(char _sign, int _index) : sign(_sign), index(_index) {}
-    char sign = ' ';
-    int index = -1;
-};
-
-
-struct Node {
-
-    //void processClauses(const std::string & data)
-    void parseData(const std::string & data)
+    void AST_Node::parseData(const std::string & data)
     {
         // data is a string of a fomula defined by user
-        // from the data string 
-        
-       // std::cout << "start parsing data : " << data << "\n";
-
+        // from the data string
+        //std::cout << "parse data \n";
 
         std::string processData = data;
         std::vector<int> removeIndicies;
@@ -67,22 +25,18 @@ struct Node {
             processData.erase(removeIndicies[i] - i, 1);
         }
 
-        std::cout << "after process " << processData << "\n";
-
-
         int openCracketCount = 0;
         int closeCracketCount = 0;
         bool isSpecialMath = false;
         for(int i = 0; i < processData.size(); ++i)
         {
 
-            
             if(processData[i] == '(')
             {
                 int foundIndex = i ;
                 if(i > 3 )
                 {
-                    // check if before the '(' is cos or sin 
+                    // check if before the '(' is cos or sin
                     // if yes, then pushback the letter c(cos) or s(sin)
                     std::string cutprocessData = processData.substr(i - 3, 3);
                     if(cutprocessData == "cos" || cutprocessData == "sin")
@@ -90,7 +44,7 @@ struct Node {
                         foundIndex = i - 3;
                         isSpecialMath = true;
                     }
-                    
+
                 }
                 bracketStack.push(foundIndex);
                 openCracketCount++;
@@ -99,7 +53,6 @@ struct Node {
             else if(processData[i] == ')')
             {
                 std::string tClause = processData.substr(bracketStack.top(), i - bracketStack.top() + 1);
-                std::cout << "tClause : " << tClause << "\n";
 
                 bracketStack.pop();
                 clauseStack.push(clause(tClause, i));
@@ -121,44 +74,31 @@ struct Node {
             return;
         }
 
-        std::cout << "total clauses found : " << clauses.size() << "\n";
-
         int middleOperator = 0;
         if(clauses.size() >= 2)
-        {    
+        {
             auto copyClauseStack = clauses;
 
             for(int i = 0; i < copyClauseStack.size(); ++i)
             {
-                std::cout << "clause " << i + 1 << ":\n";
                 int tab = 0;
                 while(!copyClauseStack[i].empty())
                 {
-                    for(int j = 0; j < tab; ++j)
-                    {
-                        std::cout << "\t";
-            
-                    }
-                    std::cout << copyClauseStack[i].top().data << "\n";
                     copyClauseStack[i].pop();
                     tab++;
                 }
-                
+
             }
             // find the operators among the clauses
-          
 
             std::vector<operationSign> operatorSignsLocation;
-            std::cout << "process \n";
+
             for(int i = 0; i < clauses.size() -1; ++i)
             {
-                std::cout << "checking " << i << "\n";
-                //std::cout << clauses[i].top().data << "\n";
                 clause firstClause = clauses[i].top();
                 int start = firstClause.originalIndex;
                 std::string tOp = processData.substr(start + 1,1);
                 operatorSignsLocation.emplace_back(operationSign(tOp[0], start+1));
-                std::cout << "operator : " << tOp << "\n";
             }
 
                 // look for * and / first
@@ -179,9 +119,6 @@ struct Node {
                     break;
                 }
             }
-            
-            std::cout << "middle operator : " << middleOperator << "\n";
-            std::cout << processData.substr(middleOperator, 1) << "\n";
 
             char middleOperatorChar = processData[middleOperator];
             if(middleOperatorChar == '+')
@@ -203,22 +140,26 @@ struct Node {
 
             std::string leftClause = processData.substr(0, middleOperator);
             std::string rightClause = processData.substr(middleOperator + 1, processData.size() - middleOperator );
-            std::cout << "left clause : " << leftClause << "\n";
-            std::cout << "right clause: " << rightClause << "\n";
 
-            left = new Node();
-            right = new Node();
+            left = new AST_Node();
+            right = new AST_Node();
+            left->setFactors(m_factors);
+            right->setFactors(m_factors);
+            left->setRvalue(r_value);
+            right->setRvalue(r_value);
+            left->setTvalue(t_value);
+            right->setTvalue(t_value);
             left->parseData(leftClause);
             right->parseData(rightClause);
+            
         }
         else
         {
-           
+
             std::vector<operationSign> operatorSignsLocation;
-            std::cout << "process \n";
 
             std::string singleClause = clauses[0].top().data;
-            std::cout << "single clause : " << singleClause << "|\n";
+
             for(int i = 0; i < singleClause.size(); ++i)
             {
                 // find * and / first
@@ -226,44 +167,54 @@ struct Node {
                 {
                     middleOperator = i;
                     break;
-                    
+
                 }
                 if(singleClause[i] == '+' || singleClause[i] == '-')
                 {
-                    std::cout << "overwrite middle operator !!!!! \n";
                     middleOperator = i;
                     break;
                 }
             }
-
-
             if(middleOperator == 0)
             {
                 if(!isSpecialMath)
                 {
 
-                
-                    std::cout << "no more operator found !!!!!!!!!! \n";
                     std::string strValue = singleClause.substr(1, singleClause.size() - 2);
-                    std::cout << "strValue is : " << strValue << "\n";
                     if(strValue == "a")
                     {
-                        
-                        value = A;
-                        // std::cout << "a value found \n";
-                        // std::cout << "value is : " << value << "\n";
+
+                        //value = getFactorIndex('a');
+                        value = m_factors[0];
+                       // std::cout << "a value found \n";
+
                     }
                     else if(strValue == "b")
                     {
-                        value = B;
-                        //std::cout << "b value found \n";
-                        //std::cout << "value is : " << value << "\n";
+                        value = m_factors[1];
+                       // std::cout << "b value found \n";
+                        
                     }
                     else if(strValue == "c")
                     {
-                        value = C;
-                        // std::cout << "c value found \n";
-                        // std::cout << "value is : " << value << "\n";
+                        value = m_factors[2];
+                       // std::cout << "c value found \n";
+                    }
+                    else if(strValue == "d")
+                    {
+                        value = m_factors[3];
+                       // std::cout << "d value found \n";
+                    }
+                    else if(strValue == "t")
+                    {
+                         std::cout << "t value found \n";
+                        value = * t_value;
+                         std::cout << "t value end \n";
+                    }
+                    else if(strValue == "r")
+                    {
+                        value = * r_value;
+                       // std::cout << "r value found \n";
                     }
                     else
                     {
@@ -272,7 +223,6 @@ struct Node {
                 }
                 else
                 {
-                    std::cout << "special math found \n";
                     int is_cos_sin = 0;
                     // if keyword cos found in the clause
                     if(singleClause.find("cos") != std::string::npos)
@@ -289,26 +239,41 @@ struct Node {
                         is_cos_sin = 3;
                     }
                     std::string strValue = singleClause.substr(5, singleClause.size() - 7);
-                    std::cout << "strValue special math : " << strValue << "\n";
-                    
+
                     if(strValue == "a")
                     {
-                        
-                        value = A;
+
+                        //value = getFactorIndex('a');
+                        value = m_factors[0];
                         std::cout << "a value found \n";
-                        std::cout << "value is : " << value << "\n";
+
                     }
                     else if(strValue == "b")
                     {
-                        value = B;
+                        value = m_factors[1];
                         std::cout << "b value found \n";
-                        std::cout << "value is : " << value << "\n";
                     }
                     else if(strValue == "c")
                     {
-                        value = C;
+                        value = m_factors[2];
                         std::cout << "c value found \n";
-                        std::cout << "value is : " << value << "\n";
+                    }
+                    else if(strValue == "d")
+                    {
+
+                        value = m_factors[3];
+                        std::cout << "d value found \n";
+                    }
+                    else if(strValue == "t")
+                    {
+                        value = * t_value;
+                        std::cout << "t value found \n";
+                    }
+                    else if(strValue == "r")
+                    {
+
+                        value = * r_value;
+                        std::cout << "r value found \n";
                     }
                     else
                     {
@@ -318,10 +283,12 @@ struct Node {
                     if(is_cos_sin == 1)
                     {
                         value = std::cos(value);
+
                     }
                     else if(is_cos_sin == 2)
                     {
                         value = std::sin(value);
+
                     }
                     else if(is_cos_sin == 3)
                     {
@@ -331,11 +298,11 @@ struct Node {
                     //value = std::stof(strValue);
                 }
             }
-            else 
+            else
             {
 
                 char middleOperatorChar = singleClause[middleOperator];
-                std::cout << "middle operator char : " << middleOperatorChar << "\n";
+
                 if(middleOperatorChar == '+')
                 {
                     op = ADD;
@@ -361,80 +328,125 @@ struct Node {
                 {
                     leftClause = leftClause.substr(0, leftClause.size() - 1);
                 }
-                std::cout << "left clause : " << leftClause << "\n";
-                std::cout << "right clause: " << rightClause << "\n";   
 
-                left = new Node();  
+                left = new AST_Node();
+                left->setFactors(m_factors);
+                left->setRvalue(r_value);
+                left->setTvalue(t_value);
                 left->parseData( "(" + leftClause + ")");
+               
                 if(!isLast)
                 {
-                    right = new Node();
+                    right = new AST_Node();
+                    right->setRvalue(r_value);
+                    right->setTvalue(t_value);
+                    right->setFactors(m_factors);
                     right->parseData("("+rightClause +")");
+                   
                 }
-              
+
             }
-         
+
         }
 
-
-        std::cout << "parse OK !!! \n";
     }
 
-    void processClauses(const std::string & data)
+    int AST_Node::getFactorIndex(char character)
     {
-       int first = data.find_first_of('(');
-       int last = data.find_last_of(')');
-
+        if(character == 'a')
+        {
+            return 0;
+        }
+        else if(character == 'b')
+        {
+            return 1;
+        }
+        else if(character == 'c')
+        {
+            return 2;
+        }
+        else if(character == 'd')
+        {
+            return 3;
+        }
+        else if (character == 't')
+        {
+            return 10;
+        }
+        else if (character == 'r')
+        {
+            return 11;
+        }
+        else
+        {
+            return -1;
+        }
     }
 
-    std::vector<std::stack <int>> bracketStackVector;
-    std::stack <int> bracketStack;
-    std::stack<clause> clauseStack;
-    std::vector<std::stack<clause>> clauses;
-    
-    float value = 0.0;
-    Node * left;
-    Node * right;
-    Operator op = NONE;
+    void AST_Node::setRvalue(float * r_t_value)
+    {
+        r_value = r_t_value;
+    }
 
-    float getValue() {
-        //std::cout << "get value called \n";
-        std::cout << "value before add : " << value << "\n";
+
+    void AST_Node::setValue(char varName, float value)
+    {
+        int index = getFactorIndex(varName);
+        if(index == 10) // t
+        {
+            *t_value = value;
+        }
+        else if(index == 11) // r
+        {
+            *r_value = value;
+        }
+        else if(index != -1 && index < m_factors.size())
+        {
+            m_factors[index] = value;
+        }
+        else
+        {
+            std::cout << "Waning:  variable not found or out of reach " << index << " \n";
+        }
+    }
+
+
+    void AST_Node::setTvalue(float * t_t_value)
+    {
+        std::cout << "set t value called \n";
+       
+        t_value = t_t_value;
+        std::cout << "t value at " << t_value << "\n";
+        std::cout <<  "tt_value at " << t_t_value << "\n";
+        std::cout << "t value actual value " << *t_value << "\n";
+    }
+
+    float AST_Node::getValue() const
+    {
+        std::cout << "get value called \n";
+
         switch (op) {
             case ADD:
-                std::cout << "add value called \n";
+                std::cout << "value before " << value << " +\n";
                 return value + (left->getValue() + right->getValue());
+               // std::cout << "value after " << value << "\n";
             case SUB:
-                std::cout << "sub value called \n";
+
+                std::cout << "value before " << value << " -\n";
                 return value +  (left->getValue() - right->getValue());
-            case MUL: 
-                std::cout << "mul value called \n";
+            case MUL:
+
+                std::cout << "value before " << value << " *\n";
                 return value +  (left->getValue() * right->getValue());
-            case DIV:   
-                std::cout << "div value called \n";
+            case DIV:
+
+                std::cout << "value before " << value << " /\n";
                 return value +  (left->getValue() / right->getValue());
             default:
-                std::cout << "default value called \n";
+
                 return value;
         }
        // std::cout << "value after add : " << value << "\n";
-    }   
+    }
 
-};
-
-
-class FormulaLoader
-{
-
-public:
-    FormulaLoader();
-    ~FormulaLoader();
-
-    void parseData(const std::string & data);
-
-
-
-private : 
-    Node * root = nullptr;
-
-};
+}

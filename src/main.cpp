@@ -4,6 +4,7 @@
 #include "FormulaLoader.h"
 //#include <taskflow/taskflow.hpp>
 #include <fstream>
+#include "AST_Node.h"
 
 int main()
 {
@@ -22,12 +23,49 @@ int main()
         fomula += buff;
     }
 
-    Node * node = new Node();
+    std::vector<float> factors;
+
+    factors.push_back(3.0);
+    factors.push_back(4.0);
+    factors.push_back(2.0);
+    factors.push_back(6.0);
 
 
-    node->parseData(fomula);    
+    Feintgine::AST_Node * ast_node = new Feintgine::AST_Node();
 
-    std::cout << node->getValue();
+    ast_node->setFactors(factors);
+    float t = 0.1;
+    float r = 45.0;
+    float * t_value = &t;
+    ast_node->setTvalue(t_value);
+    ast_node->setRvalue(&r);
+    ast_node->parseData(fomula);
+
+
+
+
+    //Node * node = new Node();
+    //node->parseData(fomula);   
+    //std::cout << node->getValue();
+
+
+
+    // *t_value = 0.50f;
+
+    // std::cout << t << "\n";
+    std::cout << ast_node->getValue() << "\n";
+    t= 15.1f;
+
+    ast_node->setValue('a', 10.0f);
+
+        //std::cout << *t_value << "\n";
+      
+    std::cout << ast_node->getValue() << "\n";
+       
+       //std::cout << ast_node->getTvalue() << "\n";
+    
+
+ 
 
     return 0;
 }
