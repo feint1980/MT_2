@@ -8,7 +8,7 @@ namespace Feintgine
     {
         // data is a string of a fomula defined by user
         // from the data string
-        //std::cout << "parse data \n";
+       
 
         std::string processData = data;
         std::vector<int> removeIndicies;
@@ -20,10 +20,12 @@ namespace Feintgine
                 removeIndicies.push_back(i);
             }
         }
+
         for(int i = 0; i < removeIndicies.size(); ++i)
         {
             processData.erase(removeIndicies[i] - i, 1);
         }
+         std::cout << "parse data " << processData << "\n";
 
         int openCracketCount = 0;
         int closeCracketCount = 0;
@@ -71,8 +73,15 @@ namespace Feintgine
         if (openCracketCount != closeCracketCount)
         {
             std::cout << "parse error !!! \n";
+            std::cout << "problem :" << data << "\n";
             return;
         }
+        // if(processData[0] == '(' && processData[processData.size() - 1] == ')')
+        // {
+        //     std::cout << "remove extra brackets \n";
+
+        //     processData = processData.substr(1, processData.size() - 2);
+        // }
 
         int middleOperator = 0;
         if(clauses.size() >= 2)
@@ -141,6 +150,8 @@ namespace Feintgine
             std::string leftClause = processData.substr(0, middleOperator);
             std::string rightClause = processData.substr(middleOperator + 1, processData.size() - middleOperator );
 
+
+
             left = new AST_Node();
             right = new AST_Node();
             left->setFactors(m_factors);
@@ -149,9 +160,14 @@ namespace Feintgine
             right->setRvalue(r_value);
             left->setTvalue(t_value);
             right->setTvalue(t_value);
+
+            std::cout << "left clause " << leftClause << "\n";
+            std::cout << "right clause " << rightClause << "\n";
+            balanceBrackets(leftClause);
+            balanceBrackets(rightClause);
             left->parseData(leftClause);
             right->parseData(rightClause);
-            
+
         }
         else
         {
@@ -160,7 +176,7 @@ namespace Feintgine
 
             std::string singleClause = clauses[0].top().data;
 
-            for(int i = 0; i < singleClause.size(); ++i)
+            for(int i = singleClause.size() - 1; i > 0; --i)
             {
                 // find * and / first
                 if (singleClause[i] == '*' || singleClause[i] == '/')
@@ -185,40 +201,41 @@ namespace Feintgine
                     {
 
                         //value = getFactorIndex('a');
-                        value = m_factors[0];
+                        value = &m_factors[0];
                        // std::cout << "a value found \n";
 
                     }
                     else if(strValue == "b")
                     {
-                        value = m_factors[1];
+                        value = &m_factors[1];
                        // std::cout << "b value found \n";
-                        
+
                     }
                     else if(strValue == "c")
                     {
-                        value = m_factors[2];
+                        value = &m_factors[2];
                        // std::cout << "c value found \n";
                     }
                     else if(strValue == "d")
                     {
-                        value = m_factors[3];
+                        value = &m_factors[3];
                        // std::cout << "d value found \n";
                     }
                     else if(strValue == "t")
                     {
                          std::cout << "t value found \n";
-                        value = * t_value;
+                        value = t_value;
                          std::cout << "t value end \n";
                     }
                     else if(strValue == "r")
                     {
-                        value = * r_value;
+                        value = r_value;
                        // std::cout << "r value found \n";
                     }
                     else
                     {
-                        value = std::stof(strValue);
+                        std::cout << "attemp to convert value " << strValue << "\n";
+                        *value =  std::stof(strValue);
                     }
                 }
                 else
@@ -244,56 +261,75 @@ namespace Feintgine
                     {
 
                         //value = getFactorIndex('a');
-                        value = m_factors[0];
+                        value = &m_factors[0];
                         std::cout << "a value found \n";
 
                     }
                     else if(strValue == "b")
                     {
-                        value = m_factors[1];
+                        value = &m_factors[1];
                         std::cout << "b value found \n";
                     }
                     else if(strValue == "c")
                     {
-                        value = m_factors[2];
+                        value = &m_factors[2];
                         std::cout << "c value found \n";
                     }
                     else if(strValue == "d")
                     {
 
-                        value = m_factors[3];
+                        value = &m_factors[3];
                         std::cout << "d value found \n";
                     }
                     else if(strValue == "t")
                     {
-                        value = * t_value;
+                        value = t_value;
                         std::cout << "t value found \n";
                     }
                     else if(strValue == "r")
                     {
 
-                        value = * r_value;
+                        value = r_value;
                         std::cout << "r value found \n";
                     }
                     else
                     {
-                        value = std::stof(strValue);
+                        std::cout << "attemp to convert value " << strValue << "\n";
+                        *value = std::stof(strValue);
                     }
+
 
                     if(is_cos_sin == 1)
                     {
-                        value = std::cos(value);
-
+                        op = COS;
+                        //*value = std::cos(*value);
                     }
                     else if(is_cos_sin == 2)
                     {
-                        value = std::sin(value);
-
+                        //*value = std::sin(*value);
+                        op = SIN;
                     }
                     else if(is_cos_sin == 3)
                     {
-                        value = std::tan(value);
+
+                        op = SQRT;
+                        //value = std::tan(value);
                     }
+                    // // please reconsider this
+                    // if(is_cos_sin == 1)
+                    // {
+                    //     *value = std::cos(*value);
+
+                    // }
+                    // else if(is_cos_sin == 2)
+                    // {
+                    //     *value = std::sin(*value);
+
+                    // }
+                    // else if(is_cos_sin == 3)
+                    // {
+                    //     value = std::tan(value);
+                    // }
 
                     //value = std::stof(strValue);
                 }
@@ -320,35 +356,86 @@ namespace Feintgine
                     op = DIV;
                 }
 
-                std::string leftClause = singleClause.substr(1, middleOperator - 1); // left out the opening bracket
+                std::string leftClause = singleClause.substr(1, middleOperator -1 ); // left out the opening bracket
                 std::string rightClause = singleClause.substr(middleOperator + 1, singleClause.size() - leftClause.size());
                 rightClause = rightClause.substr(0, rightClause.size() - 1); // left out the closing bracket
                 bool isLast = rightClause.size() == 0;
                 if(isLast)
                 {
+                    std::cout << "is last \n";
                     leftClause = leftClause.substr(0, leftClause.size() - 1);
                 }
+                else
+                {
+                    std::cout << "not last \n";
+                }
+                
 
                 left = new AST_Node();
                 left->setFactors(m_factors);
                 left->setRvalue(r_value);
                 left->setTvalue(t_value);
-                left->parseData( "(" + leftClause + ")");
+                balanceBrackets(leftClause);
+                std::cout << "left clause " << leftClause << " !!!\n";
+              
+                // remove unbalanced brackets
                
+
+                //left->parseData( "(" + leftClause + ")");
+                left->parseData( leftClause);
+
                 if(!isLast)
                 {
                     right = new AST_Node();
                     right->setRvalue(r_value);
                     right->setTvalue(t_value);
                     right->setFactors(m_factors);
-                    right->parseData("("+rightClause +")");
-                   
+
+                    std::cout << "right clause " << rightClause << "\n";
+                    //right->parseData("("+rightClause +")");
+                    balanceBrackets(rightClause);
+                    right->parseData(rightClause);
                 }
 
             }
 
         }
 
+    }
+
+    void AST_Node::balanceBrackets( std::string & data )
+    {
+        int openCrackCount = 0;
+        int closeCrackCount = 0;
+        for(int i = 0 ; i < data.size(); ++i)
+        {
+            if(data[i] == '(')
+            {
+                openCrackCount++;
+            }
+            if(data[i] == ')')
+            {
+                closeCrackCount++;
+            }
+        }
+        int diff = openCrackCount - closeCrackCount;
+        std::cout << "diff " << diff << "\n";
+        if(diff > 0)
+        {
+            // remove unbalanced brackets
+            for(int i = 0 ; i < diff; ++i)
+            {
+                data = data.substr(data.find_first_of('('), data.size() - 1);
+            }
+        }
+        else if (diff < 0)
+        {
+            diff = -diff;
+            for(int i = 0 ; i < diff; ++i)
+            {
+                data = data.substr(0, data.find_first_of(')'));
+            }
+        }
     }
 
     int AST_Node::getFactorIndex(char character)
@@ -413,38 +500,46 @@ namespace Feintgine
 
     void AST_Node::setTvalue(float * t_t_value)
     {
-        std::cout << "set t value called \n";
-       
+  //      std::cout << "set t value called \n";
+
         t_value = t_t_value;
-        std::cout << "t value at " << t_value << "\n";
-        std::cout <<  "tt_value at " << t_t_value << "\n";
-        std::cout << "t value actual value " << *t_value << "\n";
+//        std::cout << "t value at " << t_value << "\n";
+//        std::cout <<  "tt_value at " << t_t_value << "\n";
+//        std::cout << "t value actual value " << *t_value << "\n";
     }
 
     float AST_Node::getValue() const
     {
-        std::cout << "get value called \n";
+    //    std::cout << "get value called \n";
 
         switch (op) {
             case ADD:
-                std::cout << "value before " << value << " +\n";
-                return value + (left->getValue() + right->getValue());
+      //          std::cout << "value before " << value << " +\n";
+                return *value + (left->getValue() + right->getValue());
                // std::cout << "value after " << value << "\n";
             case SUB:
 
-                std::cout << "value before " << value << " -\n";
-                return value +  (left->getValue() - right->getValue());
+        //        std::cout << "value before " << value << " -\n";
+                return *value +  (left->getValue() - right->getValue());
             case MUL:
 
-                std::cout << "value before " << value << " *\n";
-                return value +  (left->getValue() * right->getValue());
+          //      std::cout << "value before " << value << " *\n";
+                return *value +  (left->getValue() * right->getValue());
             case DIV:
 
+            //    std::cout << "value before " << value << " /\n";
+                return *value +  (left->getValue() / right->getValue());
+            case COS:
+              //  std::cout << "value before " << value << " /\n";
+                return *value +  std::cos(left->getValue());
+
+            case SIN:
                 std::cout << "value before " << value << " /\n";
-                return value +  (left->getValue() / right->getValue());
+                return *value +  std::sin(left->getValue());
+
             default:
 
-                return value;
+                return *value;
         }
        // std::cout << "value after add : " << value << "\n";
     }

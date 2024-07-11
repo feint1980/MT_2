@@ -8,7 +8,7 @@
 
 int main()
 {
-    
+
     std::string fomula;// = "(a + 2 * b) / ( cos(b)  * 2 * b)";
     FILE * file = fopen("fomula.txt", "r");
 
@@ -41,31 +41,31 @@ int main()
     ast_node->setRvalue(&r);
     ast_node->parseData(fomula);
 
-
-
-
     //Node * node = new Node();
-    //node->parseData(fomula);   
+    //node->parseData(fomula);
     //std::cout << node->getValue();
-
 
 
     // *t_value = 0.50f;
 
     // std::cout << t << "\n";
     std::cout << ast_node->getValue() << "\n";
-    t= 15.1f;
+    //t= 15.1f;
 
-    ast_node->setValue('a', 10.0f);
+    //ast_node->setValue('a', 10.0f);
 
         //std::cout << *t_value << "\n";
-      
-    std::cout << ast_node->getValue() << "\n";
-       
-       //std::cout << ast_node->getTvalue() << "\n";
-    
+    for(int i = 0 ; i < 10 ; i ++)
+    {
 
- 
+        t += 0.1f;
+         std::cout << ast_node->getValue() << "\n";
+    }
+
+       //std::cout << ast_node->getTvalue() << "\n";
+
+
+    std::cin.get();
 
     return 0;
 }

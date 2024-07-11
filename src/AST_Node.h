@@ -58,6 +58,7 @@ struct AST_Node {
     {
         t_value = new float;
         r_value = new float;
+        value = new float;
     }
 
     void parseData(const std::string & data);
@@ -67,7 +68,7 @@ struct AST_Node {
     std::stack<clause> clauseStack;
     std::vector<std::stack<clause>> clauses;
     
-    float value = 0.0;
+    float * value = nullptr;
     AST_Node * left;
     AST_Node * right;
     Operator op = NONE;
@@ -81,6 +82,8 @@ struct AST_Node {
     float getValue() const;
 
     std::vector<float> m_factors ;
+
+    void balanceBrackets( std::string & data );
 
     void setTvalue(float * t_t_value);
 
