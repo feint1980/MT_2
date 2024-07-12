@@ -163,8 +163,8 @@ namespace Feintgine
 
             std::cout << "left clause " << leftClause << "\n";
             std::cout << "right clause " << rightClause << "\n";
-            balanceBrackets(leftClause);
-            balanceBrackets(rightClause);
+            //balanceBrackets(leftClause);
+            //balanceBrackets(rightClause);
             left->parseData(leftClause);
             right->parseData(rightClause);
 
@@ -375,13 +375,13 @@ namespace Feintgine
                 left->setFactors(m_factors);
                 left->setRvalue(r_value);
                 left->setTvalue(t_value);
-                balanceBrackets(leftClause);
+                //balanceBrackets(leftClause);
                 std::cout << "left clause " << leftClause << " !!!\n";
               
                 // remove unbalanced brackets
                
 
-                //left->parseData( "(" + leftClause + ")");
+                left->parseData( "(" + leftClause + ")");
                 left->parseData( leftClause);
 
                 if(!isLast)
@@ -392,9 +392,9 @@ namespace Feintgine
                     right->setFactors(m_factors);
 
                     std::cout << "right clause " << rightClause << "\n";
-                    //right->parseData("("+rightClause +")");
-                    balanceBrackets(rightClause);
-                    right->parseData(rightClause);
+                    right->parseData("("+rightClause +")");
+                    //balanceBrackets(rightClause);
+                    //right->parseData(rightClause);
                 }
 
             }
